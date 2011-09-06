@@ -11,8 +11,11 @@
 #import "StrawberryChangAppDelegate.h"
 
 @implementation ArtistsTableViewController
-@synthesize artistsArray;
+//@synthesize artistsArray;
 @synthesize artistDetailViewController;
+//@synthesize artsArray;
+@synthesize artistData;
+
 
 - (id)initWithStyle:(UITableViewStyle)style
 {
@@ -45,11 +48,15 @@
     
     self.title = NSLocalizedString(@"Artists", @"Artists Info");
     
-    NSMutableArray *array = [[NSArray alloc] initWithObjects:@"Spring", @"Summer", @"Autumn", nil];
+   
+    NSString *path = [[NSBundle mainBundle]pathForResource:@"Artists"
+                                                    ofType:@"plist"];
+    self.artistData = [[NSMutableArray alloc] initWithContentsOfFile:path];
+    [path release];
     
-    self.artistsArray = array;
-    [array release];
-
+   
+    
+    
     // Uncomment the following line to preserve selection between presentations.
     // self.clearsSelectionOnViewWillAppear = NO;
  
@@ -94,16 +101,19 @@
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
 {
-#warning Potentially incomplete method implementation.
+
     // Return the number of sections.
     return 1;
+   // return [self.artistData count];
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
-#warning Incomplete method implementation.
+
     // Return the number of rows in the section.
-    return [self.artistsArray count];
+   // return [self.artistsArray count];
+ //   return [self.artsArray count];
+    return [self.artistData  count];
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
@@ -116,9 +126,14 @@
     }
     
     // Configure the cell...
-    NSUInteger row = [indexPath row];
+//    NSUInteger row = [indexPath row];
     
-    cell.text = [self.artistsArray objectAtIndex:row];
+    //cell.text = [self.artistsArray objectAtIndex:row];
+    //cell.textLabel.text = [[[artistData objectAtIndex: indexPath.section] objectForKey: @"title"] objectAtIndex: indexPath.row];
+    cell.textLabel.text = [[self.artistData objectAtIndex:indexPath.row] objectForKey:@"title"];
+
+    
+    cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
     
     return cell;
 }
@@ -174,7 +189,7 @@
      [self.navigationController pushViewController:detailViewController animated:YES];
      [detailViewController release];
      */
-    NSInteger row = [indexPath row];
+//    NSInteger row = [indexPath row];
     if (self.artistDetailViewController == nil)
     {
         ArtistDetailViewController *aArtistDetail = [[ArtistDetailViewController alloc] initWithNibName:@"ArtistDetailViewController" bundle:nil];
@@ -183,7 +198,8 @@
         
     }
     
-    artistDetailViewController.title = [NSString stringWithFormat:@"%@",[artistsArray objectAtIndex:row]];
+//    artistDetailViewController.title = [NSString stringWithFormat:@"%@",[[self.artistData objectAtIndex:row] objectForKey:@"title"]];
+ //   artistDetailViewController.artistDict = [self.artistData objectAtIndex:indexPath.row];
     
     StrawberryChangAppDelegate *delegate =[[UIApplication sharedApplication] delegate];
     [delegate.artistsNavViewController pushViewController:artistDetailViewController animated:YES];

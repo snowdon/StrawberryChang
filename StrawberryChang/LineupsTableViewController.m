@@ -50,6 +50,8 @@
     self.lineupsArray = array;
     [array release];
     
+   
+    
     
 
     // Uncomment the following line to preserve selection between presentations.
@@ -121,6 +123,7 @@
     
     NSUInteger row = [indexPath row];
     cell.text = [lineupsArray objectAtIndex:row];
+    cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
     
     
     return cell;

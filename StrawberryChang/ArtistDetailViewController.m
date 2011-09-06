@@ -11,6 +11,25 @@
 
 @implementation ArtistDetailViewController
 
+@synthesize timeLabel;
+@synthesize photoImageView;
+@synthesize bioTextView;
+@synthesize titleLabel;
+//@synthesize artistDict;
+
+/*
+- (void)viewWillAppear:(BOOL)animated
+{
+    [super viewWillAppear:animated];
+    
+    self.titleLabel.text = [self.artistDict objectForKey:@"title"];
+    self.bioTextView.text = [self.artistDict objectForKey:@"bio"];
+    self.timeLabel.text = [self.artistDict objectForKey:@"time"];
+    
+}
+*/
+
+
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
@@ -38,6 +57,8 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+   
+                       
     // Do any additional setup after loading the view from its nib.
 }
 

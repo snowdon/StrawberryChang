@@ -2,11 +2,25 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <array>
-	<key>New item</key>
-	<string></string>
-	<key>New item - 3</key>
-	<string></string>
-	<key>New item - 2</key>
-	<string></string>
+	<dict>
+		<key>bio</key>
+		<string>abdasfds</string>
+		<key>photo</key>
+		<string>avator1.png</string>
+		<key>time</key>
+		<string>2011</string>
+		<key>title</key>
+		<string>春</string>
+	</dict>
+	<dict>
+		<key>bio</key>
+		<string>abdasfds</string>
+		<key>photo</key>
+		<string>avator2.png</string>
+		<key>time</key>
+		<string>2011</string>
+		<key>title</key>
+		<string>Summer</string>
+	</dict>
 </array>
 </plist>
