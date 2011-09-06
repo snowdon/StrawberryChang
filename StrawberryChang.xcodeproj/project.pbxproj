@@ -1,0 +1,265 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		15EF9DC91415A80E004410C1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15EF9DC81415A80E004410C1 /* UIKit.framework */; };
+		15EF9DCB1415A80E004410C1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15EF9DCA1415A80E004410C1 /* Foundation.framework */; };
+		15EF9DCD1415A80E004410C1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15EF9DCC1415A80E004410C1 /* CoreGraphics.framework */; };
+		15EF9DD31415A80E004410C1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 15EF9DD11415A80E004410C1 /* InfoPlist.strings */; };
+		15EF9DD61415A80E004410C1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 15EF9DD51415A80E004410C1 /* main.m */; };
+		15EF9DD91415A80E004410C1 /* StrawberryChangAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 15EF9DD81415A80E004410C1 /* StrawberryChangAppDelegate.m */; };
+		15EF9DDC1415A80E004410C1 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 15EF9DDA1415A80E004410C1 /* MainWindow.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		15EF9DC41415A80E004410C1 /* StrawberryChang.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StrawberryChang.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		15EF9DC81415A80E004410C1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		15EF9DCA1415A80E004410C1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		15EF9DCC1415A80E004410C1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		15EF9DD01415A80E004410C1 /* StrawberryChang-Info.plist */ = {isa = PBXFileReference; path = "StrawberryChang-Info.plist"; sourceTree = "<group>"; };
+		15EF9DD21415A80E004410C1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		15EF9DD41415A80E004410C1 /* StrawberryChang-Prefix.pch */ = {isa = PBXFileReference; path = "StrawberryChang-Prefix.pch"; sourceTree = "<group>"; };
+		15EF9DD51415A80E004410C1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		15EF9DD71415A80E004410C1 /* StrawberryChangAppDelegate.h */ = {isa = PBXFileReference; path = StrawberryChangAppDelegate.h; sourceTree = "<group>"; };
+		15EF9DD81415A80E004410C1 /* StrawberryChangAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StrawberryChangAppDelegate.m; sourceTree = "<group>"; };
+		15EF9DDB1415A80E004410C1 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		15EF9DC11415A80E004410C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15EF9DC91415A80E004410C1 /* UIKit.framework in Frameworks */,
+				15EF9DCB1415A80E004410C1 /* Foundation.framework in Frameworks */,
+				15EF9DCD1415A80E004410C1 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		15EF9DB91415A80D004410C1 = {
+			isa = PBXGroup;
+			children = (
+				15EF9DCE1415A80E004410C1 /* StrawberryChang */,
+				15EF9DC71415A80E004410C1 /* Frameworks */,
+				15EF9DC51415A80E004410C1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		15EF9DC51415A80E004410C1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				15EF9DC41415A80E004410C1 /* StrawberryChang.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		15EF9DC71415A80E004410C1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				15EF9DC81415A80E004410C1 /* UIKit.framework */,
+				15EF9DCA1415A80E004410C1 /* Foundation.framework */,
+				15EF9DCC1415A80E004410C1 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		15EF9DCE1415A80E004410C1 /* StrawberryChang */ = {
+			isa = PBXGroup;
+			children = (
+				15EF9DD71415A80E004410C1 /* StrawberryChangAppDelegate.h */,
+				15EF9DD81415A80E004410C1 /* StrawberryChangAppDelegate.m */,
+				15EF9DDA1415A80E004410C1 /* MainWindow.xib */,
+				15EF9DCF1415A80E004410C1 /* Supporting Files */,
+			);
+			path = StrawberryChang;
+			sourceTree = "<group>";
+		};
+		15EF9DCF1415A80E004410C1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				15EF9DD01415A80E004410C1 /* StrawberryChang-Info.plist */,
+				15EF9DD11415A80E004410C1 /* InfoPlist.strings */,
+				15EF9DD41415A80E004410C1 /* StrawberryChang-Prefix.pch */,
+				15EF9DD51415A80E004410C1 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		15EF9DC31415A80E004410C1 /* StrawberryChang */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 15EF9DDF1415A80E004410C1 /* Build configuration list for PBXNativeTarget "StrawberryChang" */;
+			buildPhases = (
+				15EF9DC01415A80E004410C1 /* Sources */,
+				15EF9DC11415A80E004410C1 /* Frameworks */,
+				15EF9DC21415A80E004410C1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StrawberryChang;
+			productName = StrawberryChang;
+			productReference = 15EF9DC41415A80E004410C1 /* StrawberryChang.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		15EF9DBB1415A80D004410C1 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 15EF9DBE1415A80D004410C1 /* Build configuration list for PBXProject "StrawberryChang" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 15EF9DB91415A80D004410C1;
+			productRefGroup = 15EF9DC51415A80E004410C1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				15EF9DC31415A80E004410C1 /* StrawberryChang */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		15EF9DC21415A80E004410C1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15EF9DD31415A80E004410C1 /* InfoPlist.strings in Resources */,
+				15EF9DDC1415A80E004410C1 /* MainWindow.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		15EF9DC01415A80E004410C1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15EF9DD61415A80E004410C1 /* main.m in Sources */,
+				15EF9DD91415A80E004410C1 /* StrawberryChangAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		15EF9DD11415A80E004410C1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				15EF9DD21415A80E004410C1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		15EF9DDA1415A80E004410C1 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				15EF9DDB1415A80E004410C1 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		15EF9DDD1415A80E004410C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		15EF9DDE1415A80E004410C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		15EF9DE01415A80E004410C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "StrawberryChang/StrawberryChang-Prefix.pch";
+				INFOPLIST_FILE = "StrawberryChang/StrawberryChang-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		15EF9DE11415A80E004410C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "StrawberryChang/StrawberryChang-Prefix.pch";
+				INFOPLIST_FILE = "StrawberryChang/StrawberryChang-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		15EF9DBE1415A80D004410C1 /* Build configuration list for PBXProject "StrawberryChang" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15EF9DDD1415A80E004410C1 /* Debug */,
+				15EF9DDE1415A80E004410C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		15EF9DDF1415A80E004410C1 /* Build configuration list for PBXNativeTarget "StrawberryChang" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15EF9DE01415A80E004410C1 /* Debug */,
+				15EF9DE11415A80E004410C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 15EF9DBB1415A80D004410C1 /* Project object */;
+}
