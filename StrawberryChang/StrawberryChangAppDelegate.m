@@ -7,15 +7,21 @@
 //
 
 #import "StrawberryChangAppDelegate.h"
+#import "LineupsNavViewController.h"
+#import "ArtistsNavViewController.h"
 
 @implementation StrawberryChangAppDelegate
 
 
 @synthesize window=_window;
+@synthesize rootController;
+@synthesize lineupsNavViewController;
+@synthesize artistsNavViewController;
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    [self.window addSubview:rootController.view];
     [self.window makeKeyAndVisible];
     return YES;
 }
@@ -61,6 +67,9 @@
 
 - (void)dealloc
 {
+    [lineupsNavViewController release];
+    [artistsNavViewController release];
+    [rootController release];
     [_window release];
     [super dealloc];
 }

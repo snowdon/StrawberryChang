@@ -14,6 +14,12 @@
 		15EF9DD61415A80E004410C1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 15EF9DD51415A80E004410C1 /* main.m */; };
 		15EF9DD91415A80E004410C1 /* StrawberryChangAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 15EF9DD81415A80E004410C1 /* StrawberryChangAppDelegate.m */; };
 		15EF9DDC1415A80E004410C1 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 15EF9DDA1415A80E004410C1 /* MainWindow.xib */; };
+		15EF9DE41415AC2C004410C1 /* LineupsNavViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 15EF9DE31415AC2C004410C1 /* LineupsNavViewController.m */; };
+		15EF9DE71415AD8E004410C1 /* ArtistsNavViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 15EF9DE61415AD8E004410C1 /* ArtistsNavViewController.m */; };
+		15EF9DEB1415AEF8004410C1 /* LineupsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 15EF9DE91415AEF8004410C1 /* LineupsTableViewController.m */; };
+		15EF9DEC1415AEF8004410C1 /* LineupsTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 15EF9DEA1415AEF8004410C1 /* LineupsTableViewController.xib */; };
+		15EF9DF01415AF12004410C1 /* ArtistsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 15EF9DEE1415AF12004410C1 /* ArtistsTableViewController.m */; };
+		15EF9DF11415AF12004410C1 /* ArtistsTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 15EF9DEF1415AF12004410C1 /* ArtistsTableViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,13 +27,23 @@
 		15EF9DC81415A80E004410C1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		15EF9DCA1415A80E004410C1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		15EF9DCC1415A80E004410C1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		15EF9DD01415A80E004410C1 /* StrawberryChang-Info.plist */ = {isa = PBXFileReference; path = "StrawberryChang-Info.plist"; sourceTree = "<group>"; };
+		15EF9DD01415A80E004410C1 /* StrawberryChang-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "StrawberryChang-Info.plist"; sourceTree = "<group>"; };
 		15EF9DD21415A80E004410C1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		15EF9DD41415A80E004410C1 /* StrawberryChang-Prefix.pch */ = {isa = PBXFileReference; path = "StrawberryChang-Prefix.pch"; sourceTree = "<group>"; };
+		15EF9DD41415A80E004410C1 /* StrawberryChang-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "StrawberryChang-Prefix.pch"; sourceTree = "<group>"; };
 		15EF9DD51415A80E004410C1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		15EF9DD71415A80E004410C1 /* StrawberryChangAppDelegate.h */ = {isa = PBXFileReference; path = StrawberryChangAppDelegate.h; sourceTree = "<group>"; };
+		15EF9DD71415A80E004410C1 /* StrawberryChangAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StrawberryChangAppDelegate.h; sourceTree = "<group>"; };
 		15EF9DD81415A80E004410C1 /* StrawberryChangAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StrawberryChangAppDelegate.m; sourceTree = "<group>"; };
 		15EF9DDB1415A80E004410C1 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		15EF9DE21415AC2C004410C1 /* LineupsNavViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LineupsNavViewController.h; sourceTree = "<group>"; };
+		15EF9DE31415AC2C004410C1 /* LineupsNavViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LineupsNavViewController.m; sourceTree = "<group>"; };
+		15EF9DE51415AD8E004410C1 /* ArtistsNavViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArtistsNavViewController.h; sourceTree = "<group>"; };
+		15EF9DE61415AD8E004410C1 /* ArtistsNavViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArtistsNavViewController.m; sourceTree = "<group>"; };
+		15EF9DE81415AEF8004410C1 /* LineupsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LineupsTableViewController.h; sourceTree = "<group>"; };
+		15EF9DE91415AEF8004410C1 /* LineupsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LineupsTableViewController.m; sourceTree = "<group>"; };
+		15EF9DEA1415AEF8004410C1 /* LineupsTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LineupsTableViewController.xib; sourceTree = "<group>"; };
+		15EF9DED1415AF12004410C1 /* ArtistsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArtistsTableViewController.h; sourceTree = "<group>"; };
+		15EF9DEE1415AF12004410C1 /* ArtistsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArtistsTableViewController.m; sourceTree = "<group>"; };
+		15EF9DEF1415AF12004410C1 /* ArtistsTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ArtistsTableViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +93,16 @@
 				15EF9DD71415A80E004410C1 /* StrawberryChangAppDelegate.h */,
 				15EF9DD81415A80E004410C1 /* StrawberryChangAppDelegate.m */,
 				15EF9DDA1415A80E004410C1 /* MainWindow.xib */,
+				15EF9DE21415AC2C004410C1 /* LineupsNavViewController.h */,
+				15EF9DE31415AC2C004410C1 /* LineupsNavViewController.m */,
+				15EF9DE81415AEF8004410C1 /* LineupsTableViewController.h */,
+				15EF9DE91415AEF8004410C1 /* LineupsTableViewController.m */,
+				15EF9DEA1415AEF8004410C1 /* LineupsTableViewController.xib */,
+				15EF9DE51415AD8E004410C1 /* ArtistsNavViewController.h */,
+				15EF9DE61415AD8E004410C1 /* ArtistsNavViewController.m */,
+				15EF9DED1415AF12004410C1 /* ArtistsTableViewController.h */,
+				15EF9DEE1415AF12004410C1 /* ArtistsTableViewController.m */,
+				15EF9DEF1415AF12004410C1 /* ArtistsTableViewController.xib */,
 				15EF9DCF1415A80E004410C1 /* Supporting Files */,
 			);
 			path = StrawberryChang;
@@ -142,6 +168,8 @@
 			files = (
 				15EF9DD31415A80E004410C1 /* InfoPlist.strings in Resources */,
 				15EF9DDC1415A80E004410C1 /* MainWindow.xib in Resources */,
+				15EF9DEC1415AEF8004410C1 /* LineupsTableViewController.xib in Resources */,
+				15EF9DF11415AF12004410C1 /* ArtistsTableViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -154,6 +182,10 @@
 			files = (
 				15EF9DD61415A80E004410C1 /* main.m in Sources */,
 				15EF9DD91415A80E004410C1 /* StrawberryChangAppDelegate.m in Sources */,
+				15EF9DE41415AC2C004410C1 /* LineupsNavViewController.m in Sources */,
+				15EF9DE71415AD8E004410C1 /* ArtistsNavViewController.m in Sources */,
+				15EF9DEB1415AEF8004410C1 /* LineupsTableViewController.m in Sources */,
+				15EF9DF01415AF12004410C1 /* ArtistsTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
