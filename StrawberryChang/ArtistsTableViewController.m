@@ -7,10 +7,12 @@
 //
 
 #import "ArtistsTableViewController.h"
-
+#import "ArtistDetailViewController.h"
+#import "StrawberryChangAppDelegate.h"
 
 @implementation ArtistsTableViewController
 @synthesize artistsArray;
+@synthesize artistDetailViewController;
 
 - (id)initWithStyle:(UITableViewStyle)style
 {
@@ -23,6 +25,7 @@
 
 - (void)dealloc
 {
+
     [super dealloc];
 }
 
@@ -171,6 +174,20 @@
      [self.navigationController pushViewController:detailViewController animated:YES];
      [detailViewController release];
      */
+    NSInteger row = [indexPath row];
+    if (self.artistDetailViewController == nil)
+    {
+        ArtistDetailViewController *aArtistDetail = [[ArtistDetailViewController alloc] initWithNibName:@"ArtistDetailViewController" bundle:nil];
+        self.artistDetailViewController = aArtistDetail;
+        [aArtistDetail release];
+        
+    }
+    
+    artistDetailViewController.title = [NSString stringWithFormat:@"%@",[artistsArray objectAtIndex:row]];
+    
+    StrawberryChangAppDelegate *delegate =[[UIApplication sharedApplication] delegate];
+    [delegate.artistsNavViewController pushViewController:artistDetailViewController animated:YES];
+    
 }
 
 @end

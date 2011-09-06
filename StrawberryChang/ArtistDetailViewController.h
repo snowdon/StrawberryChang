@@ -9,6 +9,8 @@
 #import <UIKit/UIKit.h>
 
 
+
+
 @interface ArtistDetailViewController : UIViewController {
     
 }
