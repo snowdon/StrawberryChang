@@ -7,16 +7,17 @@
 //
 
 #import <UIKit/UIKit.h>
-
+@class LineupDetailViewController;
 
 @interface LineupsTableViewController : UITableViewController 
 <UITableViewDelegate, UITableViewDataSource>
 {
     IBOutlet UITableView *lineupsTableView;
     NSMutableArray *lineupsArray;
+    LineupDetailViewController *lineupDetailViewController;
     
 }
 
 @property (nonatomic, retain) NSMutableArray *lineupsArray;
-
+@property (nonatomic, retain) LineupDetailViewController *lineupDetailViewController;
 @end

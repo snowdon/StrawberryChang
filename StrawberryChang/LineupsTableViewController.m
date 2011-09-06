@@ -7,10 +7,12 @@
 //
 
 #import "LineupsTableViewController.h"
-
+#import "LineupDetailViewController.h"
+#import "StrawberryChangAppDelegate.h"
 
 @implementation LineupsTableViewController
 @synthesize lineupsArray;
+@synthesize lineupDetailViewController;
 
 - (id)initWithStyle:(UITableViewStyle)style
 {
@@ -23,6 +25,7 @@
 
 - (void)dealloc
 {
+    [lineupDetailViewController release];
     [super dealloc];
 }
 
@@ -174,6 +177,21 @@
      [self.navigationController pushViewController:detailViewController animated:YES];
      [detailViewController release];
      */
+    
+    NSInteger row = [indexPath row];
+    if (self.lineupDetailViewController == nil)
+    {
+        LineupDetailViewController *aLineupDetail = [[LineupDetailViewController alloc] initWithNibName:@"LineupDetailViewController" bundle:nil];
+        self.lineupDetailViewController = aLineupDetail;
+        [aLineupDetail release];
+        
+    }
+    
+    lineupDetailViewController.title = [NSString stringWithFormat:@"%@",[lineupsArray objectAtIndex:row]];
+    
+    StrawberryChangAppDelegate *delegate =[[UIApplication sharedApplication] delegate];
+    [delegate.lineupsNavViewController pushViewController:lineupDetailViewController animated:YES];
+    
 }
 
 @end
