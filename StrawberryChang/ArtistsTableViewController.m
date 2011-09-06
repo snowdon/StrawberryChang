@@ -25,7 +25,7 @@
 
 - (void)dealloc
 {
-
+    [artistDetailViewController release];
     [super dealloc];
 }
 
@@ -190,4 +190,10 @@
     
 }
 
+/*
+- (NSArray *)sectionIndexTitlesForTableView:(UITableView *)tableView
+{
+    return keys;
+}
+*/
 @end

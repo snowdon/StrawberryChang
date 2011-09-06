@@ -24,6 +24,7 @@
 		15EF9E2F1415C22D004410C1 /* LineupDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 15EF9E2D1415C22D004410C1 /* LineupDetailViewController.xib */; };
 		15EF9E341415C244004410C1 /* ArtistDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 15EF9E321415C244004410C1 /* ArtistDetailViewController.m */; };
 		15EF9E351415C244004410C1 /* ArtistDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 15EF9E331415C244004410C1 /* ArtistDetailViewController.xib */; };
+		15EF9E3F1415E92B004410C1 /* Artists.plist in Resources */ = {isa = PBXBuildFile; fileRef = 15EF9E3E1415E92B004410C1 /* Artists.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -54,6 +55,7 @@
 		15EF9E311415C244004410C1 /* ArtistDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArtistDetailViewController.h; sourceTree = "<group>"; };
 		15EF9E321415C244004410C1 /* ArtistDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArtistDetailViewController.m; sourceTree = "<group>"; };
 		15EF9E331415C244004410C1 /* ArtistDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ArtistDetailViewController.xib; sourceTree = "<group>"; };
+		15EF9E3E1415E92B004410C1 /* Artists.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Artists.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -131,6 +133,7 @@
 				15EF9DD11415A80E004410C1 /* InfoPlist.strings */,
 				15EF9DD41415A80E004410C1 /* StrawberryChang-Prefix.pch */,
 				15EF9DD51415A80E004410C1 /* main.m */,
+				15EF9E3E1415E92B004410C1 /* Artists.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -188,6 +191,7 @@
 				15EF9DF11415AF12004410C1 /* ArtistsTableViewController.xib in Resources */,
 				15EF9E2F1415C22D004410C1 /* LineupDetailViewController.xib in Resources */,
 				15EF9E351415C244004410C1 /* ArtistDetailViewController.xib in Resources */,
+				15EF9E3F1415E92B004410C1 /* Artists.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
