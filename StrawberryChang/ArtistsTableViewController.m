@@ -9,10 +9,12 @@
 #import "ArtistsTableViewController.h"
 #import "ArtistDetailViewController.h"
 #import "StrawberryChangAppDelegate.h"
+#import "ArtistsModel.h"
 
 @implementation ArtistsTableViewController
 @synthesize artistsArray;
 @synthesize artistDetailViewController;
+@synthesize artistsModel;
 //@synthesize artistsList;
 
 //@synthesize artsArray;
@@ -49,6 +51,12 @@
     [super viewDidLoad];
     
     self.title = NSLocalizedString(@"Artists", @"Artists Info");
+    
+    ArtistsModel *tmpArtistsModel = [[ArtistsModel alloc] init];
+    self.artistsModel = tmpArtistsModel;
+    [tmpArtistsModel release];
+    
+
     
    
  //   NSString *path = [[NSBundle mainBundle]pathForResource:@"ArtistsList"   
@@ -117,10 +125,11 @@
 {
 
     // Return the number of rows in the section.
-    return [self.artistsArray count];
+   // return [self.artistsArray count];
   //  return [self.artsArray count];
   //  return [self.artistData  count];
   //  return [self.artistsList count];
+    return [self.artistsModel getNumberOfArtists];
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
@@ -140,7 +149,9 @@
  //   cell.textLabel.text = [[self.artistData objectAtIndex:indexPath.row] objectForKey:@"title"];
 
     NSUInteger row = [indexPath row];
-    cell.textLabel.text = [self.artistsArray objectAtIndex:row];
+  //  cell.textLabel.text = [self.artistsArray objectAtIndex:row];
+    
+    cell.textLabel.text = [self.artistsModel getArtistNameAtIndex:row];
     cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
     
     return cell;
@@ -204,6 +215,8 @@
         ArtistDetailViewController *aArtistDetail = [[ArtistDetailViewController alloc] initWithNibName:@"ArtistDetailViewController" bundle:nil];
         
         self.artistDetailViewController = aArtistDetail;
+             artistDetailViewController.artistsModel = self.artistsModel;
+ 
         [aArtistDetail release];
         
     }

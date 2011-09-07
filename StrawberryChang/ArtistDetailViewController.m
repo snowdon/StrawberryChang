@@ -7,9 +7,24 @@
 //
 
 #import "ArtistDetailViewController.h"
-
+#import "ArtistsModel.h"
 
 @implementation ArtistDetailViewController
+
+@synthesize artistsModel;
+@synthesize artistBio;
+
+- (void)setIndexForArtistBioIndex:(int)index
+{
+    artistIndex = index;
+}
+
+- (void)viewWillAppear:(BOOL)animated
+{
+    artistBio.text = [artistsModel getArtistBioAtIndex:artistIndex];
+    [super viewWillAppear:animated];
+    
+}
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {

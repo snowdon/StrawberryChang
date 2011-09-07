@@ -8,11 +8,13 @@
 
 #import <UIKit/UIKit.h>
 @class ArtistDetailViewController;
+@class ArtistsModel;
 
 @interface ArtistsTableViewController : UITableViewController 
 <UITableViewDelegate, UITableViewDataSource>
 {
     NSMutableArray *artistsArray;
+    ArtistsModel *artistsModel;
 
     ArtistDetailViewController *artistDetailViewController;
   //  IBOutlet NSArray *artistData;
@@ -25,5 +27,6 @@
 @property (nonatomic, retain) ArtistDetailViewController *artistDetailViewController;
 //@property (nonatomic, retain) IBOutlet NSArray *artistData;
 
+@property (nonatomic, retain) ArtistsModel *artistsModel;
 
 @end

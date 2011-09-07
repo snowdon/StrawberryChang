@@ -7,10 +7,16 @@
 //
 
 #import <UIKit/UIKit.h>
-
+@class ArtistsModel;
 
 @interface ArtistDetailViewController : UIViewController {
+    ArtistsModel *artistsModel;
+    int artistIndex;
+    UITextView *artistBio;
     
 }
+@property (nonatomic, retain) ArtistsModel *artistsModel;
+@property (nonatomic, retain) IBOutlet UITextView *artistBio;
 
+- (void)setIndexForArtistBioIndex:(int)index;
 @end

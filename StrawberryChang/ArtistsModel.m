@@ -18,15 +18,15 @@
 {
     self = [super init];
     NSMutableArray *tmpArtists = [[NSArray alloc] initWithObjects:
-                                @"Head First Java",
-                                @"Head First iPhone",
-                                @"Head First tennis",
+                                @"春",
+                                @"夏天",
+                                @"第五季",
                                 nil];
     self.artistsName = tmpArtists;
     [tmpArtists release];
     
     NSMutableArray *tmpArtistsBio = [[NSArray alloc] initWithObjects:
-                                 @"dsafdsafdas", @"dsafdsafa", @"dsafdsaf", nil];
+                                 @"我是简介1", @"我是简介2", @"我是简介3", nil];
     
     self.artistsBio = tmpArtistsBio;
     [tmpArtistsBio release];
@@ -44,7 +44,7 @@
 }
 
 
-- (UIImage *)getArtistBioAtIndex:(int)index
+- (NSString *)getArtistBioAtIndex:(int)index
 {
     
    // UIImage *bookImage = [UIImage imageNamed:[bookImages objectAtIndex:index]];
