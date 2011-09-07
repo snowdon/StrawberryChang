@@ -13,6 +13,8 @@
 @implementation ArtistsTableViewController
 @synthesize artistsArray;
 @synthesize artistDetailViewController;
+//@synthesize artistsList;
+
 //@synthesize artsArray;
 //@synthesize artistData;
 
@@ -49,12 +51,12 @@
     self.title = NSLocalizedString(@"Artists", @"Artists Info");
     
    
-  //  NSString *path = [[NSBundle mainBundle]pathForResource:@"Artists"
-   //                                                 ofType:@"plist"];
-  //  self.artistData = [[NSMutableArray alloc] initWithContentsOfFile:path];
+ //   NSString *path = [[NSBundle mainBundle]pathForResource:@"ArtistsList"   
+  //                                                  ofType:@"plist"];
+ //   self.artistsList = [[NSMutableArray alloc] initWithContentsOfFile:path];
   //  [path release];
     
-    NSArray *array = [[NSArray alloc] initWithObjects:@"Chuns", @"Xia", @"Qiu", @"Dong", nil];
+    NSMutableArray *array = [[NSMutableArray alloc] initWithObjects:@"Chuns", @"Xia", @"Qiu", @"Dong", nil];
     
     self.artistsArray = array;
     [array release];
@@ -116,8 +118,9 @@
 
     // Return the number of rows in the section.
     return [self.artistsArray count];
- //   return [self.artsArray count];
+  //  return [self.artsArray count];
   //  return [self.artistData  count];
+  //  return [self.artistsList count];
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
@@ -194,18 +197,21 @@
      [self.navigationController pushViewController:detailViewController animated:YES];
      [detailViewController release];
      */
-//    NSInteger row = [indexPath row];
+  //  NSInteger row = [indexPath row];
+    NSInteger row = [indexPath row];
     if (self.artistDetailViewController == nil)
     {
         ArtistDetailViewController *aArtistDetail = [[ArtistDetailViewController alloc] initWithNibName:@"ArtistDetailViewController" bundle:nil];
+        
         self.artistDetailViewController = aArtistDetail;
         [aArtistDetail release];
         
     }
     
-//    artistDetailViewController.title = [NSString stringWithFormat:@"%@",[[self.artistData objectAtIndex:row] objectForKey:@"title"]];
-  //  artistDetailViewController.artistDict = [self.artistData objectAtIndex:indexPath.row];
+  //  artistDetailViewController.title = [NSString stringWithFormat:@"%@",[self.artistsArray objectAtIndex:row]] ;
     
+  //  artistDetailViewController.artistDict = [self.artistData objectAtIndex:indexPath.row];
+    artistDetailViewController.title = [NSString stringWithFormat:@"%@",[artistsArray objectAtIndex:row]];
     StrawberryChangAppDelegate *delegate =[[UIApplication sharedApplication] delegate];
     [delegate.artistsNavViewController pushViewController:artistDetailViewController animated:YES];
     

@@ -10,6 +10,7 @@
 		15A24E88141712620085FDAA /* ArtistDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 15A24E86141712620085FDAA /* ArtistDetailViewController.m */; };
 		15A24E89141712620085FDAA /* ArtistDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 15A24E87141712620085FDAA /* ArtistDetailViewController.xib */; };
 		15A24E9114171B020085FDAA /* ArtistsList.plist in Resources */ = {isa = PBXBuildFile; fileRef = 15A24E9014171B020085FDAA /* ArtistsList.plist */; };
+		15A24E9C141736090085FDAA /* ArtistsModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 15A24E9B141736090085FDAA /* ArtistsModel.m */; };
 		15EF9DC91415A80E004410C1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15EF9DC81415A80E004410C1 /* UIKit.framework */; };
 		15EF9DCB1415A80E004410C1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15EF9DCA1415A80E004410C1 /* Foundation.framework */; };
 		15EF9DCD1415A80E004410C1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15EF9DCC1415A80E004410C1 /* CoreGraphics.framework */; };
@@ -33,6 +34,8 @@
 		15A24E86141712620085FDAA /* ArtistDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArtistDetailViewController.m; sourceTree = "<group>"; };
 		15A24E87141712620085FDAA /* ArtistDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ArtistDetailViewController.xib; sourceTree = "<group>"; };
 		15A24E9014171B020085FDAA /* ArtistsList.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ArtistsList.plist; sourceTree = "<group>"; };
+		15A24E9A141736090085FDAA /* ArtistsModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArtistsModel.h; sourceTree = "<group>"; };
+		15A24E9B141736090085FDAA /* ArtistsModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArtistsModel.m; sourceTree = "<group>"; };
 		15EF9DC41415A80E004410C1 /* StrawberryChang.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StrawberryChang.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		15EF9DC81415A80E004410C1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		15EF9DCA1415A80E004410C1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -123,6 +126,8 @@
 				15A24E85141712610085FDAA /* ArtistDetailViewController.h */,
 				15A24E86141712620085FDAA /* ArtistDetailViewController.m */,
 				15A24E87141712620085FDAA /* ArtistDetailViewController.xib */,
+				15A24E9A141736090085FDAA /* ArtistsModel.h */,
+				15A24E9B141736090085FDAA /* ArtistsModel.m */,
 				15EF9DCF1415A80E004410C1 /* Supporting Files */,
 			);
 			path = StrawberryChang;
@@ -214,6 +219,7 @@
 				15EF9DF01415AF12004410C1 /* ArtistsTableViewController.m in Sources */,
 				15EF9E2E1415C22D004410C1 /* LineupDetailViewController.m in Sources */,
 				15A24E88141712620085FDAA /* ArtistDetailViewController.m in Sources */,
+				15A24E9C141736090085FDAA /* ArtistsModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

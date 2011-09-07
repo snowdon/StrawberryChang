@@ -16,9 +16,11 @@
 
     ArtistDetailViewController *artistDetailViewController;
   //  IBOutlet NSArray *artistData;
+  //  NSMutableArray *artistsList;
     
 }
 @property (nonatomic, retain) NSMutableArray *artistsArray;
+//@property (nonatomic, retain) NSMutableArray *artistsList;
 
 @property (nonatomic, retain) ArtistDetailViewController *artistDetailViewController;
 //@property (nonatomic, retain) IBOutlet NSArray *artistData;
