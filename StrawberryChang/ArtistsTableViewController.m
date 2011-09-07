@@ -11,10 +11,10 @@
 #import "StrawberryChangAppDelegate.h"
 
 @implementation ArtistsTableViewController
-//@synthesize artistsArray;
+@synthesize artistsArray;
 @synthesize artistDetailViewController;
 //@synthesize artsArray;
-@synthesize artistData;
+//@synthesize artistData;
 
 
 - (id)initWithStyle:(UITableViewStyle)style
@@ -49,11 +49,15 @@
     self.title = NSLocalizedString(@"Artists", @"Artists Info");
     
    
-    NSString *path = [[NSBundle mainBundle]pathForResource:@"Artists"
-                                                    ofType:@"plist"];
-    self.artistData = [[NSMutableArray alloc] initWithContentsOfFile:path];
-    [path release];
+  //  NSString *path = [[NSBundle mainBundle]pathForResource:@"Artists"
+   //                                                 ofType:@"plist"];
+  //  self.artistData = [[NSMutableArray alloc] initWithContentsOfFile:path];
+  //  [path release];
     
+    NSArray *array = [[NSArray alloc] initWithObjects:@"Chuns", @"Xia", @"Qiu", @"Dong", nil];
+    
+    self.artistsArray = array;
+    [array release];
    
     
     
@@ -111,9 +115,9 @@
 {
 
     // Return the number of rows in the section.
-   // return [self.artistsArray count];
+    return [self.artistsArray count];
  //   return [self.artsArray count];
-    return [self.artistData  count];
+  //  return [self.artistData  count];
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
@@ -130,9 +134,10 @@
     
     //cell.text = [self.artistsArray objectAtIndex:row];
     //cell.textLabel.text = [[[artistData objectAtIndex: indexPath.section] objectForKey: @"title"] objectAtIndex: indexPath.row];
-    cell.textLabel.text = [[self.artistData objectAtIndex:indexPath.row] objectForKey:@"title"];
+ //   cell.textLabel.text = [[self.artistData objectAtIndex:indexPath.row] objectForKey:@"title"];
 
-    
+    NSUInteger row = [indexPath row];
+    cell.textLabel.text = [self.artistsArray objectAtIndex:row];
     cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
     
     return cell;

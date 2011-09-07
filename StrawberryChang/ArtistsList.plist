@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>春</key>
+	<dict>
+		<key>name</key>
+		<string>chun</string>
+		<key>bio</key>
+		<string>dsafdsa</string>
+	</dict>
+	<key>夏天</key>
+	<dict>
+		<key>name</key>
+		<string>xia</string>
+		<key>bio</key>
+		<string>dsafdsafdsafdsaf</string>
+	</dict>
+	<key>秋</key>
+	<dict>
+		<key>name</key>
+		<string>qiu</string>
+		<key>bio</key>
+		<string>dsafddddddddddddddddd</string>
+	</dict>
+	<key>冬</key>
+	<dict>
+		<key>name</key>
+		<string>dong</string>
+		<key>bio</key>
+		<string>dddddogn tianluo</string>
+	</dict>
+</dict>
+</plist>

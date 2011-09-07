@@ -12,16 +12,16 @@
 @interface ArtistsTableViewController : UITableViewController 
 <UITableViewDelegate, UITableViewDataSource>
 {
-  //  NSMutableArray *artistsArray;
-  //  NSMutableArray *artsArray;
+    NSMutableArray *artistsArray;
+
     ArtistDetailViewController *artistDetailViewController;
-    IBOutlet NSArray *artistData;
+  //  IBOutlet NSArray *artistData;
     
 }
-//@property (nonatomic, retain) NSMutableArray *artistsArray;
-//@property (nonatomic, retain) NSMutableArray *artsArray;
+@property (nonatomic, retain) NSMutableArray *artistsArray;
+
 @property (nonatomic, retain) ArtistDetailViewController *artistDetailViewController;
-@property (nonatomic, retain) IBOutlet NSArray *artistData;
+//@property (nonatomic, retain) IBOutlet NSArray *artistData;
 
 
 @end

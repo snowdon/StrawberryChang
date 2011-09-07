@@ -2,7 +2,7 @@
 //  ArtistDetailViewController.m
 //  StrawberryChang
 //
-//  Created by  Chuns on 11-9-6.
+//  Created by  Chuns on 11-9-7.
 //  Copyright 2011年 __MyCompanyName__. All rights reserved.
 //
 
@@ -10,25 +10,6 @@
 
 
 @implementation ArtistDetailViewController
-
-@synthesize timeLabel;
-@synthesize photoImageView;
-@synthesize bioTextView;
-@synthesize titleLabel;
-//@synthesize artistDict;
-
-/*
-- (void)viewWillAppear:(BOOL)animated
-{
-    [super viewWillAppear:animated];
-    
-    self.titleLabel.text = [self.artistDict objectForKey:@"title"];
-    self.bioTextView.text = [self.artistDict objectForKey:@"bio"];
-    self.timeLabel.text = [self.artistDict objectForKey:@"time"];
-    
-}
-*/
-
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -57,8 +38,6 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-   
-                       
     // Do any additional setup after loading the view from its nib.
 }
 
