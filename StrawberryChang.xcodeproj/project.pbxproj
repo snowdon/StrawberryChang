@@ -11,6 +11,9 @@
 		15A24E89141712620085FDAA /* ArtistDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 15A24E87141712620085FDAA /* ArtistDetailViewController.xib */; };
 		15A24E9114171B020085FDAA /* ArtistsList.plist in Resources */ = {isa = PBXBuildFile; fileRef = 15A24E9014171B020085FDAA /* ArtistsList.plist */; };
 		15A24E9C141736090085FDAA /* ArtistsModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 15A24E9B141736090085FDAA /* ArtistsModel.m */; };
+		15A24EA0141746B50085FDAA /* avator1.png in Resources */ = {isa = PBXBuildFile; fileRef = 15A24E9D141746B50085FDAA /* avator1.png */; };
+		15A24EA1141746B50085FDAA /* avator2.png in Resources */ = {isa = PBXBuildFile; fileRef = 15A24E9E141746B50085FDAA /* avator2.png */; };
+		15A24EA2141746B50085FDAA /* avator3.png in Resources */ = {isa = PBXBuildFile; fileRef = 15A24E9F141746B50085FDAA /* avator3.png */; };
 		15EF9DC91415A80E004410C1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15EF9DC81415A80E004410C1 /* UIKit.framework */; };
 		15EF9DCB1415A80E004410C1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15EF9DCA1415A80E004410C1 /* Foundation.framework */; };
 		15EF9DCD1415A80E004410C1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15EF9DCC1415A80E004410C1 /* CoreGraphics.framework */; };
@@ -36,6 +39,9 @@
 		15A24E9014171B020085FDAA /* ArtistsList.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ArtistsList.plist; sourceTree = "<group>"; };
 		15A24E9A141736090085FDAA /* ArtistsModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArtistsModel.h; sourceTree = "<group>"; };
 		15A24E9B141736090085FDAA /* ArtistsModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArtistsModel.m; sourceTree = "<group>"; };
+		15A24E9D141746B50085FDAA /* avator1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = avator1.png; sourceTree = "<group>"; };
+		15A24E9E141746B50085FDAA /* avator2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = avator2.png; sourceTree = "<group>"; };
+		15A24E9F141746B50085FDAA /* avator3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = avator3.png; sourceTree = "<group>"; };
 		15EF9DC41415A80E004410C1 /* StrawberryChang.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StrawberryChang.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		15EF9DC81415A80E004410C1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		15EF9DCA1415A80E004410C1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -77,6 +83,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		15A24EA3141746BB0085FDAA /* photo */ = {
+			isa = PBXGroup;
+			children = (
+				15A24E9D141746B50085FDAA /* avator1.png */,
+				15A24E9E141746B50085FDAA /* avator2.png */,
+				15A24E9F141746B50085FDAA /* avator3.png */,
+			);
+			name = photo;
+			sourceTree = "<group>";
+		};
 		15EF9DB91415A80D004410C1 = {
 			isa = PBXGroup;
 			children = (
@@ -136,6 +152,7 @@
 		15EF9DCF1415A80E004410C1 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				15A24EA3141746BB0085FDAA /* photo */,
 				15EF9DD01415A80E004410C1 /* StrawberryChang-Info.plist */,
 				15EF9DD11415A80E004410C1 /* InfoPlist.strings */,
 				15EF9DD41415A80E004410C1 /* StrawberryChang-Prefix.pch */,
@@ -201,6 +218,9 @@
 				15EF9E3F1415E92B004410C1 /* Artists.plist in Resources */,
 				15A24E89141712620085FDAA /* ArtistDetailViewController.xib in Resources */,
 				15A24E9114171B020085FDAA /* ArtistsList.plist in Resources */,
+				15A24EA0141746B50085FDAA /* avator1.png in Resources */,
+				15A24EA1141746B50085FDAA /* avator2.png in Resources */,
+				15A24EA2141746B50085FDAA /* avator3.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

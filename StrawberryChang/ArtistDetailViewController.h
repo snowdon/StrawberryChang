@@ -13,10 +13,12 @@
     ArtistsModel *artistsModel;
     int artistIndex;
     UITextView *artistBio;
+    UIImageView *artistPhoto;
     
 }
 @property (nonatomic, retain) ArtistsModel *artistsModel;
 @property (nonatomic, retain) IBOutlet UITextView *artistBio;
+@property (nonatomic, retain) IBOutlet UIImageView *artistPhoto;
 
-- (void)setIndexForArtistBioIndex:(int)index;
+- (void)setIndexForArtistBio:(int)index;
 @end

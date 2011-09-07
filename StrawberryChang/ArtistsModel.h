@@ -10,16 +10,20 @@
 
 
 @interface ArtistsModel : NSObject {
-    NSMutableArray *artistsName;
+    NSMutableArray *artists;
     NSMutableArray *artistsBio;
+    NSMutableArray *artistsPhoto;
     
 }
-@property (nonatomic, retain) NSMutableArray *artistsName;
+@property (nonatomic, retain) NSMutableArray *artists;
 @property (nonatomic, retain) NSMutableArray *artistsBio;
+@property (nonatomic, retain) NSMutableArray *artistsPhoto;
 
 - (int)getNumberOfArtists;
 - (NSString *)getArtistNameAtIndex:(int)index;
-- (UIImage *)getArtistBioAtIndex:(int)index;
+- (NSString *)getArtistBioAtIndex:(int)index;
+- (UIImage *)getArtistPhotoAtIndex:(int)index;
+
 
 
 

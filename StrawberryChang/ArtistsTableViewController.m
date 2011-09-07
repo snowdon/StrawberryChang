@@ -224,7 +224,9 @@
   //  artistDetailViewController.title = [NSString stringWithFormat:@"%@",[self.artistsArray objectAtIndex:row]] ;
     
   //  artistDetailViewController.artistDict = [self.artistData objectAtIndex:indexPath.row];
-    artistDetailViewController.title = [NSString stringWithFormat:@"%@",[artistsArray objectAtIndex:row]];
+   // artistDetailViewController.title = [NSString stringWithFormat:@"%@",[artistsArray objectAtIndex:row]];
+    artistDetailViewController.title = [NSString stringWithFormat:@"%@", [self.artistsModel getArtistNameAtIndex:row ]];
+    [artistDetailViewController setIndexForArtistBio:row];
     StrawberryChangAppDelegate *delegate =[[UIApplication sharedApplication] delegate];
     [delegate.artistsNavViewController pushViewController:artistDetailViewController animated:YES];
     

@@ -14,17 +14,20 @@
 @synthesize artistsModel;
 @synthesize artistBio;
 
-- (void)setIndexForArtistBioIndex:(int)index
+- (void)setIndexForArtistBio:(int)index
 {
     artistIndex = index;
 }
 
+
 - (void)viewWillAppear:(BOOL)animated
 {
+    artistPhoto.image = [artistsModel getArtistPhotoAtIndex:artistIndex];
     artistBio.text = [artistsModel getArtistBioAtIndex:artistIndex];
     [super viewWillAppear:animated];
     
 }
+
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
