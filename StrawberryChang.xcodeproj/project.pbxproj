@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1519E2F11419E8A2001E5E0F /* avator10.png in Resources */ = {isa = PBXBuildFile; fileRef = 1519E2F01419E8A2001E5E0F /* avator10.png */; };
+		155C26291419E986007FAC72 /* photo10.png in Resources */ = {isa = PBXBuildFile; fileRef = 155C26281419E986007FAC72 /* photo10.png */; };
+		155C262B1419EFD6007FAC72 /* lineuplist.plist in Resources */ = {isa = PBXBuildFile; fileRef = 155C262A1419EFD6007FAC72 /* lineuplist.plist */; };
 		158177531419B05D00FD2A5B /* artistlist.plist in Resources */ = {isa = PBXBuildFile; fileRef = 158177521419B05D00FD2A5B /* artistlist.plist */; };
 		158177691419DF5900FD2A5B /* avator6.png in Resources */ = {isa = PBXBuildFile; fileRef = 158177661419DF5900FD2A5B /* avator6.png */; };
 		1581776A1419DF5900FD2A5B /* avator7.png in Resources */ = {isa = PBXBuildFile; fileRef = 158177671419DF5900FD2A5B /* avator7.png */; };
@@ -36,6 +39,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1519E2F01419E8A2001E5E0F /* avator10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = avator10.png; sourceTree = "<group>"; };
+		155C26281419E986007FAC72 /* photo10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = photo10.png; sourceTree = "<group>"; };
+		155C262A1419EFD6007FAC72 /* lineuplist.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = lineuplist.plist; sourceTree = "<group>"; };
 		158177521419B05D00FD2A5B /* artistlist.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = artistlist.plist; sourceTree = "<group>"; };
 		158177661419DF5900FD2A5B /* avator6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = avator6.png; sourceTree = "<group>"; };
 		158177671419DF5900FD2A5B /* avator7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = avator7.png; sourceTree = "<group>"; };
@@ -99,6 +105,7 @@
 				158177661419DF5900FD2A5B /* avator6.png */,
 				158177671419DF5900FD2A5B /* avator7.png */,
 				158177681419DF5900FD2A5B /* avator8.png */,
+				1519E2F01419E8A2001E5E0F /* avator10.png */,
 			);
 			name = avator;
 			sourceTree = "<group>";
@@ -106,6 +113,7 @@
 		15A24EA3141746BB0085FDAA /* photo */ = {
 			isa = PBXGroup;
 			children = (
+				155C26281419E986007FAC72 /* photo10.png */,
 			);
 			name = photo;
 			sourceTree = "<group>";
@@ -170,6 +178,7 @@
 				15A24EA3141746BB0085FDAA /* photo */,
 				158177651419DF2B00FD2A5B /* avator */,
 				158177521419B05D00FD2A5B /* artistlist.plist */,
+				155C262A1419EFD6007FAC72 /* lineuplist.plist */,
 				15EF9DD01415A80E004410C1 /* StrawberryChang-Info.plist */,
 				15EF9DD11415A80E004410C1 /* InfoPlist.strings */,
 				15EF9DD41415A80E004410C1 /* StrawberryChang-Prefix.pch */,
@@ -203,6 +212,9 @@
 /* Begin PBXProject section */
 		15EF9DBB1415A80D004410C1 /* Project object */ = {
 			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
 			buildConfigurationList = 15EF9DBE1415A80D004410C1 /* Build configuration list for PBXProject "StrawberryChang" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
@@ -240,6 +252,9 @@
 				1581776B1419DF5900FD2A5B /* avator8.png in Resources */,
 				1581776E1419DF9400FD2A5B /* avator4.png in Resources */,
 				1581776F1419DF9400FD2A5B /* avator5.png in Resources */,
+				1519E2F11419E8A2001E5E0F /* avator10.png in Resources */,
+				155C26291419E986007FAC72 /* photo10.png in Resources */,
+				155C262B1419EFD6007FAC72 /* lineuplist.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

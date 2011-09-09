@@ -279,4 +279,18 @@
     return keys;
 }
 
+//set cell height
+
+- (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath{
+    
+    //view size
+    
+    CGRect mframe = self.view.frame;
+    
+    return mframe.size.height / 5 ;
+    
+    //return 62.0;
+    
+}
+
 @end
