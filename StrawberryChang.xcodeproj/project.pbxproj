@@ -10,6 +10,9 @@
 		1519E2F11419E8A2001E5E0F /* avator10.png in Resources */ = {isa = PBXBuildFile; fileRef = 1519E2F01419E8A2001E5E0F /* avator10.png */; };
 		155C26291419E986007FAC72 /* photo10.png in Resources */ = {isa = PBXBuildFile; fileRef = 155C26281419E986007FAC72 /* photo10.png */; };
 		155C262B1419EFD6007FAC72 /* lineuplist.plist in Resources */ = {isa = PBXBuildFile; fileRef = 155C262A1419EFD6007FAC72 /* lineuplist.plist */; };
+		155C263F141A15A6007FAC72 /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 155C263D141A15A6007FAC72 /* MapViewController.m */; };
+		155C2640141A15A6007FAC72 /* MapViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 155C263E141A15A6007FAC72 /* MapViewController.xib */; };
+		155C2643141A1801007FAC72 /* zhenjiang-map.png in Resources */ = {isa = PBXBuildFile; fileRef = 155C2642141A1801007FAC72 /* zhenjiang-map.png */; };
 		158177531419B05D00FD2A5B /* artistlist.plist in Resources */ = {isa = PBXBuildFile; fileRef = 158177521419B05D00FD2A5B /* artistlist.plist */; };
 		158177691419DF5900FD2A5B /* avator6.png in Resources */ = {isa = PBXBuildFile; fileRef = 158177661419DF5900FD2A5B /* avator6.png */; };
 		1581776A1419DF5900FD2A5B /* avator7.png in Resources */ = {isa = PBXBuildFile; fileRef = 158177671419DF5900FD2A5B /* avator7.png */; };
@@ -42,6 +45,10 @@
 		1519E2F01419E8A2001E5E0F /* avator10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = avator10.png; sourceTree = "<group>"; };
 		155C26281419E986007FAC72 /* photo10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = photo10.png; sourceTree = "<group>"; };
 		155C262A1419EFD6007FAC72 /* lineuplist.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = lineuplist.plist; sourceTree = "<group>"; };
+		155C263C141A15A6007FAC72 /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
+		155C263D141A15A6007FAC72 /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
+		155C263E141A15A6007FAC72 /* MapViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MapViewController.xib; sourceTree = "<group>"; };
+		155C2642141A1801007FAC72 /* zhenjiang-map.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "zhenjiang-map.png"; sourceTree = "<group>"; };
 		158177521419B05D00FD2A5B /* artistlist.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = artistlist.plist; sourceTree = "<group>"; };
 		158177661419DF5900FD2A5B /* avator6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = avator6.png; sourceTree = "<group>"; };
 		158177671419DF5900FD2A5B /* avator7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = avator7.png; sourceTree = "<group>"; };
@@ -167,6 +174,9 @@
 				15A24E85141712610085FDAA /* ArtistDetailViewController.h */,
 				15A24E86141712620085FDAA /* ArtistDetailViewController.m */,
 				15A24E87141712620085FDAA /* ArtistDetailViewController.xib */,
+				155C263C141A15A6007FAC72 /* MapViewController.h */,
+				155C263D141A15A6007FAC72 /* MapViewController.m */,
+				155C263E141A15A6007FAC72 /* MapViewController.xib */,
 				15EF9DCF1415A80E004410C1 /* Supporting Files */,
 			);
 			path = StrawberryChang;
@@ -175,6 +185,7 @@
 		15EF9DCF1415A80E004410C1 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				155C2642141A1801007FAC72 /* zhenjiang-map.png */,
 				15A24EA3141746BB0085FDAA /* photo */,
 				158177651419DF2B00FD2A5B /* avator */,
 				158177521419B05D00FD2A5B /* artistlist.plist */,
@@ -255,6 +266,8 @@
 				1519E2F11419E8A2001E5E0F /* avator10.png in Resources */,
 				155C26291419E986007FAC72 /* photo10.png in Resources */,
 				155C262B1419EFD6007FAC72 /* lineuplist.plist in Resources */,
+				155C2640141A15A6007FAC72 /* MapViewController.xib in Resources */,
+				155C2643141A1801007FAC72 /* zhenjiang-map.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,6 +286,7 @@
 				15EF9DF01415AF12004410C1 /* ArtistsTableViewController.m in Sources */,
 				15EF9E2E1415C22D004410C1 /* LineupDetailViewController.m in Sources */,
 				15A24E88141712620085FDAA /* ArtistDetailViewController.m in Sources */,
+				155C263F141A15A6007FAC72 /* MapViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
