@@ -10,14 +10,17 @@
 @class ArtistsModel;
 
 @interface ArtistDetailViewController : UIViewController {
-    ArtistsModel *artistsModel;
-    int artistIndex;
-    UITextView *artistBio;
+ //   ArtistsModel *artistsModel;
+//    int artistIndex;
+//    UITextView *artistBio;
+    
     UIImageView *artistPhoto;
     
     NSDictionary *artistDict;
     
     UITextView *bio;
+    UILabel *dateLabel;
+    
     
     
 }

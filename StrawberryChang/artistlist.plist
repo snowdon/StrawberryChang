@@ -9,18 +9,36 @@
 			<string>a1</string>
 			<key>bio</key>
 			<string>super stat a1</string>
+			<key>photo</key>
+			<string>avator1.png</string>
+			<key>location</key>
+			<string>school</string>
+			<key>date</key>
+			<string>10.2</string>
 		</dict>
 		<dict>
 			<key>name</key>
 			<string>a2</string>
 			<key>bio</key>
 			<string>super stat a2 1</string>
+			<key>photo</key>
+			<string>avator2.png</string>
+			<key>location</key>
+			<string>elec</string>
+			<key>date</key>
+			<string>10.2</string>
 		</dict>
 		<dict>
 			<key>name</key>
 			<string>a3</string>
 			<key>bio</key>
 			<string>super stat a31</string>
+			<key>photo</key>
+			<string>avator3.png</string>
+			<key>location</key>
+			<string>i</string>
+			<key>date</key>
+			<string>10.2</string>
 		</dict>
 	</array>
 	<key>B</key>
@@ -30,18 +48,36 @@
 			<string>b1</string>
 			<key>bio</key>
 			<string>super stat 1</string>
+			<key>photo</key>
+			<string>avator1.png</string>
+			<key>location</key>
+			<string>school</string>
+			<key>date</key>
+			<string>10.2</string>
 		</dict>
 		<dict>
 			<key>name</key>
 			<string>b2</string>
 			<key>bio</key>
 			<string>super stat 1</string>
+			<key>photo</key>
+			<string>avator2.png</string>
+			<key>location</key>
+			<string>school</string>
+			<key>date</key>
+			<string>10.2</string>
 		</dict>
 		<dict>
 			<key>name</key>
 			<string>b3</string>
 			<key>bio</key>
 			<string>super stat 1</string>
+			<key>photo</key>
+			<string>avator3.png</string>
+			<key>location</key>
+			<string>school</string>
+			<key>date</key>
+			<string>10.2</string>
 		</dict>
 	</array>
 </dict>
