@@ -14,6 +14,7 @@
 {
     IBOutlet UITableView *lineupsTableView;
     NSMutableArray *lineupsArray;
+    
     LineupDetailViewController *lineupDetailViewController;
     
     NSDictionary *names;

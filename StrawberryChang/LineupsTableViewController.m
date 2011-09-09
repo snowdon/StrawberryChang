@@ -221,20 +221,26 @@
 }
 */
 
-#pragma mark - Table view delegate
 
+#pragma mark - Table view delegate
+/*
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
     // Navigation logic may go here. Create and push another view controller.
-    /*
+    
      <#DetailViewController#> *detailViewController = [[<#DetailViewController#> alloc] initWithNibName:@"<#Nib name#>" bundle:nil];
      // ...
      // Pass the selected object to the new view controller.
      [self.navigationController pushViewController:detailViewController animated:YES];
      [detailViewController release];
-     */
+     
     
-    NSInteger row = [indexPath row];
+    NSUInteger section = [indexPath section];
+    NSUInteger row = [indexPath row];
+    NSString *key = [keys objectAtIndex:section];
+    NSArray *nameSection = [names objectForKey:key];
+    
+  //  NSInteger row = [indexPath row];
     if (self.lineupDetailViewController == nil)
     {
         LineupDetailViewController *aLineupDetail = [[LineupDetailViewController alloc] initWithNibName:@"LineupDetailViewController" bundle:nil];
@@ -244,11 +250,54 @@
     }
     
     lineupDetailViewController.title = [NSString stringWithFormat:@"%@",[lineupsArray objectAtIndex:row]];
+
+    lineupDetailViewController.lineupDict = [nameSection objectAtIndex:row];
     
     StrawberryChangAppDelegate *delegate =[[UIApplication sharedApplication] delegate];
     [delegate.lineupsNavViewController pushViewController:lineupDetailViewController animated:YES];
     
 }
+*/
+
+#pragma mark - Table view delegate
+
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    
+    NSUInteger section = [indexPath section];
+    NSUInteger row = [indexPath row];
+    NSString *key = [keys objectAtIndex:section];
+    NSArray *nameSection = [names objectForKey:key];
+    
+    
+    
+    
+    if (self.lineupDetailViewController == nil)
+    {
+        LineupDetailViewController *aLineupDetail = [[LineupDetailViewController alloc] initWithNibName:@"LineupDetailViewController" bundle:nil];
+        
+        self.lineupDetailViewController = aLineupDetail;
+        
+        [aLineupDetail release];
+        
+    }
+    
+     
+    lineupDetailViewController.title = [NSString stringWithFormat:@"%@",[[nameSection objectAtIndex:row] objectForKey:@"name"]];
+    
+   // NSDictionary *dictemp = [nameSection objectAtIndex:row];
+    
+   // self.lineupDetailViewController.lineupDict = [nameSection objectAtIndex:row];
+    
+    lineupDetailViewController.lineupDict = [nameSection objectAtIndex:row];
+    
+    StrawberryChangAppDelegate *delegate =[[UIApplication sharedApplication] delegate];
+    [delegate.lineupsNavViewController pushViewController:lineupDetailViewController animated:YES];
+    
+}
+
+
+
 
 /*
 - (NSArray *)sectionIndexTitlesForTableView:(UITableView *)tableView

@@ -11,6 +11,22 @@
 
 @implementation LineupDetailViewController
 
+@synthesize nameLabel;
+@synthesize lineupDict;
+
+
+- (void)viewWillAppear:(BOOL)animated
+{
+    nameLabel.text = [lineupDict objectForKey:@"name"];
+    
+    
+    
+ //   artistPhoto.image = [UIImage imageNamed:[artistDict objectForKey:@"photo"]];
+    
+    [super viewWillAppear:animated];
+    
+}
+
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];

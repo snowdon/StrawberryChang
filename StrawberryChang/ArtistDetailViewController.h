@@ -25,7 +25,6 @@
     
     
 }
-//@property (nonatomic, retain) ArtistsModel *artistsModel;
 @property (nonatomic, retain) IBOutlet UITextView *artistBio;
 @property (nonatomic, retain) IBOutlet UITextView *bio;
 @property (nonatomic, retain) IBOutlet UIImageView *artistPhoto;

@@ -10,7 +10,11 @@
 
 
 @interface LineupDetailViewController : UIViewController {
-    
+    NSDictionary *lineupDict;
+    UILabel *nameLabel;
 }
+@property (nonatomic, retain) IBOutlet UILabel *nameLabel;
+@property (nonatomic, retain) NSDictionary *lineupDict;
+
 
 @end
