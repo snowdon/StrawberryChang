@@ -141,6 +141,8 @@
     
     //cell.textLabel.text = [nameSection objectAtIndex:row];
     cell.textLabel.text = [[nameSection objectAtIndex:row] objectForKey:@"name"];
+    UIImage *avator = [UIImage imageNamed:[[nameSection objectAtIndex:row] objectForKey:@"avator"]];
+    cell.imageView.image = avator;
   //  cell.detailTextLabel.text = [[nameSection objectAtIndex:row] objectForKey:@"bio"];
 
     //[[self.coloursArray objectAtIndex:indexPath.row] valueForKey:@"Colour"];

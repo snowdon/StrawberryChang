@@ -15,6 +15,8 @@
 			<string>school</string>
 			<key>date</key>
 			<string>10.2</string>
+			<key>time</key>
+			<string>16:00</string>
 			<key>avator</key>
 			<string>avator1.png</string>
 		</dict>
@@ -29,8 +31,10 @@
 			<string>elec</string>
 			<key>date</key>
 			<string>10.2</string>
+			<key>time</key>
+			<string>16:00</string>
 			<key>avator</key>
-			<string>avator1.png</string>
+			<string>avator2.png</string>
 		</dict>
 		<dict>
 			<key>name</key>
@@ -43,8 +47,10 @@
 			<string>i</string>
 			<key>date</key>
 			<string>10.2</string>
+			<key>time</key>
+			<string>16:00</string>
 			<key>avator</key>
-			<string>avator1.png</string>
+			<string>avator4.png</string>
 		</dict>
 	</array>
 	<key>B</key>
@@ -60,6 +66,8 @@
 			<string>school</string>
 			<key>date</key>
 			<string>10.2</string>
+			<key>time</key>
+			<string>16:00</string>
 			<key>avator</key>
 			<string>avator1.png</string>
 		</dict>
@@ -69,13 +77,15 @@
 			<key>bio</key>
 			<string>super stat 1</string>
 			<key>photo</key>
-			<string>avator2.png</string>
+			<string>avator5.png</string>
 			<key>location</key>
 			<string>school</string>
 			<key>date</key>
 			<string>10.2</string>
+			<key>time</key>
+			<string>16:00</string>
 			<key>avator</key>
-			<string>avator1.png</string>
+			<string>avator6.png</string>
 		</dict>
 		<dict>
 			<key>name</key>
@@ -89,7 +99,7 @@
 			<key>date</key>
 			<string>10.2</string>
 			<key>avator</key>
-			<string>avator1.png</string>
+			<string>avator7.png</string>
 		</dict>
 	</array>
 	<key>C</key>
@@ -105,8 +115,10 @@
 			<string>school</string>
 			<key>date</key>
 			<string>10.2</string>
+			<key>time</key>
+			<string>16:00</string>
 			<key>avator</key>
-			<string>avator1.png</string>
+			<string>avator8.png</string>
 		</dict>
 		<dict>
 			<key>name</key>
