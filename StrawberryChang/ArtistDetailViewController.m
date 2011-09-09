@@ -14,7 +14,7 @@
 @synthesize artistsModel;
 @synthesize artistBio;
 @synthesize artistDict;
-
+@synthesize bio;
 - (void)setIndexForArtistBio:(int)index
 {
     artistIndex = index;
@@ -23,6 +23,8 @@
 
 - (void)viewWillAppear:(BOOL)animated
 {
+    bio.text = [artistDict objectForKey:@"bio"];
+    
     artistPhoto.image = [artistsModel getArtistPhotoAtIndex:artistIndex];
     artistBio.text = [artistsModel getArtistBioAtIndex:artistIndex];
     [super viewWillAppear:animated];

@@ -17,9 +17,13 @@
     
     NSDictionary *artistDict;
     
+    UITextView *bio;
+    
+    
 }
 @property (nonatomic, retain) ArtistsModel *artistsModel;
 @property (nonatomic, retain) IBOutlet UITextView *artistBio;
+@property (nonatomic, retain) IBOutlet UITextView *bio;
 @property (nonatomic, retain) IBOutlet UIImageView *artistPhoto;
 @property (nonatomic, retain) NSDictionary *artistDict;
 
