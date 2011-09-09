@@ -163,7 +163,7 @@
                              SectionsTableIdentifier];
     if (cell == nil) {
         cell = [[[UITableViewCell alloc]
-                 initWithStyle:UITableViewCellStyleDefault
+                 initWithStyle:UITableViewCellStyleSubtitle
                  reuseIdentifier:SectionsTableIdentifier] autorelease];
         
     }
@@ -171,7 +171,8 @@
     
     //cell.textLabel.text = [nameSection objectAtIndex:row];
     cell.textLabel.text = [[nameSection objectAtIndex:row] objectForKey:@"name"];
-    
+    cell.detailTextLabel.text = [[nameSection objectAtIndex:row] objectForKey:@"bio"];
+
     //[[self.coloursArray objectAtIndex:indexPath.row] valueForKey:@"Colour"];
     
     return cell;
@@ -259,7 +260,13 @@
      [detailViewController release];
      */
   //  NSInteger row = [indexPath row];
-    NSInteger row = [indexPath row];
+    NSUInteger section = [indexPath section];
+    NSUInteger row = [indexPath row];
+    NSString *key = [keys objectAtIndex:section];
+    NSArray *nameSection = [names objectForKey:key];
+    
+
+
     if (self.artistDetailViewController == nil)
     {
         ArtistDetailViewController *aArtistDetail = [[ArtistDetailViewController alloc] initWithNibName:@"ArtistDetailViewController" bundle:nil];
@@ -277,6 +284,8 @@
    // artistDetailViewController.title = [NSString stringWithFormat:@"%@",[artistsArray objectAtIndex:row]];
  //   artistDetailViewController.title = [NSString stringWithFormat:@"%@", [self.artistsModel getArtistNameAtIndex:row ]];
   //  [artistDetailViewController setIndexForArtistBio:row];
+    artistDetailViewController.artistDict = [nameSection objectAtIndex:row];
+    
     StrawberryChangAppDelegate *delegate =[[UIApplication sharedApplication] delegate];
     [delegate.artistsNavViewController pushViewController:artistDetailViewController animated:YES];
     

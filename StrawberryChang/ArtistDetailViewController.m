@@ -13,6 +13,7 @@
 
 @synthesize artistsModel;
 @synthesize artistBio;
+@synthesize artistDict;
 
 - (void)setIndexForArtistBio:(int)index
 {

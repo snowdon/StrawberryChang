@@ -15,10 +15,13 @@
     UITextView *artistBio;
     UIImageView *artistPhoto;
     
+    NSDictionary *artistDict;
+    
 }
 @property (nonatomic, retain) ArtistsModel *artistsModel;
 @property (nonatomic, retain) IBOutlet UITextView *artistBio;
 @property (nonatomic, retain) IBOutlet UIImageView *artistPhoto;
+@property (nonatomic, retain) NSDictionary *artistDict;
 
 - (void)setIndexForArtistBio:(int)index;
 @end

@@ -7,14 +7,20 @@
 		<dict>
 			<key>name</key>
 			<string>a1</string>
+			<key>bio</key>
+			<string>super stat 1</string>
 		</dict>
 		<dict>
 			<key>name</key>
 			<string>a2</string>
+			<key>bio</key>
+			<string>super stat 1</string>
 		</dict>
 		<dict>
 			<key>name</key>
 			<string>a3</string>
+			<key>bio</key>
+			<string>super stat 1</string>
 		</dict>
 	</array>
 	<key>B</key>
@@ -22,22 +28,20 @@
 		<dict>
 			<key>name</key>
 			<string>b1</string>
+			<key>bio</key>
+			<string>super stat 1</string>
 		</dict>
 		<dict>
 			<key>name</key>
 			<string>b2</string>
+			<key>bio</key>
+			<string>super stat 1</string>
 		</dict>
 		<dict>
 			<key>name</key>
 			<string>b3</string>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>b5</string>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>b6</string>
+			<key>bio</key>
+			<string>super stat 1</string>
 		</dict>
 	</array>
 </dict>
