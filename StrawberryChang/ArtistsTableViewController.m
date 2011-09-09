@@ -9,21 +9,13 @@
 #import "ArtistsTableViewController.h"
 #import "ArtistDetailViewController.h"
 #import "StrawberryChangAppDelegate.h"
-#import "ArtistsModel.h"
+
 
 @implementation ArtistsTableViewController
 @synthesize artistsArray;
 @synthesize artistDetailViewController;
-@synthesize artistsModel;
 @synthesize names;
 @synthesize keys;
-
-
-//@synthesize artistsList;
-
-//@synthesize artsArray;
-//@synthesize artistData;
-
 
 - (id)initWithStyle:(UITableViewStyle)style
 {
@@ -56,9 +48,6 @@
     
     self.title = NSLocalizedString(@"Artists", @"Artists Info");
     
-    ArtistsModel *tmpArtistsModel = [[ArtistsModel alloc] init];
-    self.artistsModel = tmpArtistsModel;
-    [tmpArtistsModel release];
     
     NSString *path = [[NSBundle mainBundle]pathForResource:@"artistlist"
                                                     ofType:@"plist"];
@@ -66,23 +55,10 @@
     self.names = dict;
     [dict release];
     
-    NSArray *array2 = [[names allKeys] sortedArrayUsingSelector:
+    NSArray *array = [[names allKeys] sortedArrayUsingSelector:
                       @selector(compare:)];
-    self.keys = array2;
+    self.keys = array;
 
-    
-   
- //   NSString *path = [[NSBundle mainBundle]pathForResource:@"ArtistsList"   
-  //                                                  ofType:@"plist"];
- //   self.artistsList = [[NSMutableArray alloc] initWithContentsOfFile:path];
-  //  [path release];
-    
-    NSMutableArray *array = [[NSMutableArray alloc] initWithObjects:@"Chuns", @"Xia", @"Qiu", @"Dong", nil];
-    
-    self.artistsArray = array;
-    [array release];
-   
-    
     
     // Uncomment the following line to preserve selection between presentations.
     // self.clearsSelectionOnViewWillAppear = NO;
@@ -138,16 +114,10 @@
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
 
-    // Return the number of rows in the section.
-   // return [self.artistsArray count];
-  //  return [self.artsArray count];
-  //  return [self.artistData  count];
-  //  return [self.artistsList count];
     NSString *key = [keys objectAtIndex:section];
     NSArray *nameSection = [names objectForKey:key];
     return [nameSection count];
-    
-   // return [self.artistsModel getNumberOfArtists];
+
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
@@ -174,7 +144,7 @@
   //  cell.detailTextLabel.text = [[nameSection objectAtIndex:row] objectForKey:@"bio"];
 
     //[[self.coloursArray objectAtIndex:indexPath.row] valueForKey:@"Colour"];
-    cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
+  //  cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
     
     return cell;
     

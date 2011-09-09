@@ -7,12 +7,11 @@
 //
 
 #import "ArtistDetailViewController.h"
-#import "ArtistsModel.h"
+//#import "ArtistsModel.h"
 
 @implementation ArtistDetailViewController
 
-//@synthesize artistsModel;
-//@synthesize artistBio;
+
 @synthesize artistDict;
 @synthesize bio;
 @synthesize dateLabel;
@@ -21,12 +20,6 @@
 @synthesize nameLabel;
 
 
-/*
-- (void)setIndexForArtistBio:(int)index
-{
-    artistIndex = index;
-}
-*/
 
 - (void)viewWillAppear:(BOOL)animated
 {
@@ -39,7 +32,7 @@
     
     
     artistPhoto.image = [UIImage imageNamed:[artistDict objectForKey:@"photo"]];
- //   artistBio.text = [artistsModel getArtistBioAtIndex:artistIndex];
+
     [super viewWillAppear:animated];
     
 }
