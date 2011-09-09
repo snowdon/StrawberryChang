@@ -15,6 +15,10 @@
 @synthesize artistsArray;
 @synthesize artistDetailViewController;
 @synthesize artistsModel;
+@synthesize names;
+@synthesize keys;
+
+
 //@synthesize artistsList;
 
 //@synthesize artsArray;
@@ -56,6 +60,15 @@
     self.artistsModel = tmpArtistsModel;
     [tmpArtistsModel release];
     
+    NSString *path = [[NSBundle mainBundle]pathForResource:@"artistlist"
+                                                    ofType:@"plist"];
+    NSDictionary *dict = [[NSDictionary alloc] initWithContentsOfFile:path];
+    self.names = dict;
+    [dict release];
+    
+    NSArray *array2 = [[names allKeys] sortedArrayUsingSelector:
+                      @selector(compare:)];
+    self.keys = array2;
 
     
    
@@ -117,7 +130,8 @@
 {
 
     // Return the number of sections.
-    return 1;
+   // return 1;
+    return [keys count];
    // return [self.artistData count];
 }
 
@@ -129,9 +143,43 @@
   //  return [self.artsArray count];
   //  return [self.artistData  count];
   //  return [self.artistsList count];
-    return [self.artistsModel getNumberOfArtists];
+    NSString *key = [keys objectAtIndex:section];
+    NSArray *nameSection = [names objectForKey:key];
+    return [nameSection count];
+    
+   // return [self.artistsModel getNumberOfArtists];
 }
 
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
+    NSUInteger section = [indexPath section];
+    NSUInteger row = [indexPath row];
+    
+    NSString *key = [keys objectAtIndex:section];
+    NSArray *nameSection = [names objectForKey:key];
+    
+    static NSString *SectionsTableIdentifier = @"SectionsTableIdentifier";
+    
+    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:
+                             SectionsTableIdentifier];
+    if (cell == nil) {
+        cell = [[[UITableViewCell alloc]
+                 initWithStyle:UITableViewCellStyleDefault
+                 reuseIdentifier:SectionsTableIdentifier] autorelease];
+        
+    }
+    
+    
+    //cell.textLabel.text = [nameSection objectAtIndex:row];
+    cell.textLabel.text = [[nameSection objectAtIndex:row] objectForKey:@"name"];
+    
+    //[[self.coloursArray objectAtIndex:indexPath.row] valueForKey:@"Colour"];
+    
+    return cell;
+    
+}
+
+
+/*
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
     static NSString *CellIdentifier = @"Cell";
@@ -156,6 +204,8 @@
     
     return cell;
 }
+
+ */
 
 /*
 // Override to support conditional editing of the table view.
@@ -225,8 +275,8 @@
     
   //  artistDetailViewController.artistDict = [self.artistData objectAtIndex:indexPath.row];
    // artistDetailViewController.title = [NSString stringWithFormat:@"%@",[artistsArray objectAtIndex:row]];
-    artistDetailViewController.title = [NSString stringWithFormat:@"%@", [self.artistsModel getArtistNameAtIndex:row ]];
-    [artistDetailViewController setIndexForArtistBio:row];
+ //   artistDetailViewController.title = [NSString stringWithFormat:@"%@", [self.artistsModel getArtistNameAtIndex:row ]];
+  //  [artistDetailViewController setIndexForArtistBio:row];
     StrawberryChangAppDelegate *delegate =[[UIApplication sharedApplication] delegate];
     [delegate.artistsNavViewController pushViewController:artistDetailViewController animated:YES];
     

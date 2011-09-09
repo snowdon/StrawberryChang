@@ -19,6 +19,8 @@
     ArtistDetailViewController *artistDetailViewController;
   //  IBOutlet NSArray *artistData;
   //  NSMutableArray *artistsList;
+    NSDictionary *name;
+    NSArray *keys;
     
 }
 @property (nonatomic, retain) NSMutableArray *artistsArray;
@@ -28,5 +30,8 @@
 //@property (nonatomic, retain) IBOutlet NSArray *artistData;
 
 @property (nonatomic, retain) ArtistsModel *artistsModel;
+
+@property (nonatomic, retain) NSDictionary *names;
+@property (nonatomic, retain) NSArray *keys;
 
 @end
