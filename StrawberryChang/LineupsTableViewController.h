@@ -16,8 +16,16 @@
     NSMutableArray *lineupsArray;
     LineupDetailViewController *lineupDetailViewController;
     
+    NSDictionary *names;
+    NSArray *keys;
+    
+    
+    
 }
 
 @property (nonatomic, retain) NSMutableArray *lineupsArray;
 @property (nonatomic, retain) LineupDetailViewController *lineupDetailViewController;
+@property (nonatomic, retain) NSDictionary *names;
+@property (nonatomic, retain) NSArray *keys;
+
 @end

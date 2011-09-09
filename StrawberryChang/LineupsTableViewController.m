@@ -13,6 +13,8 @@
 @implementation LineupsTableViewController
 @synthesize lineupsArray;
 @synthesize lineupDetailViewController;
+@synthesize keys;
+@synthesize names;
 
 - (id)initWithStyle:(UITableViewStyle)style
 {
@@ -49,6 +51,19 @@
     
     self.lineupsArray = array;
     [array release];
+    
+ 
+    
+    NSString *path = [[NSBundle mainBundle]pathForResource:@"lineuplist"
+                                                    ofType:@"plist"];
+    NSDictionary *dict = [[NSDictionary alloc] initWithContentsOfFile:path];
+    self.names = dict;
+    [dict release];
+    
+    NSArray *array2 = [[names allKeys] sortedArrayUsingSelector:@selector(compare:)];
+   // NSArray *array2 = [names allKeys];
+    
+    self.keys = array2;
     
    
     
@@ -100,18 +115,25 @@
 {
 #warning Potentially incomplete method implementation.
     // Return the number of sections.
-    return 1;
+    //return 1;
+    return [keys count];
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
 #warning Incomplete method implementation.
     // Return the number of rows in the section.
-    return [self.lineupsArray count];
+    //return [self.lineupsArray count];
+    NSString *key = [keys objectAtIndex:section];
+    NSArray *nameSection = [names objectForKey:key];
+    return [nameSection count];
+
+    
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
+    /*
     static NSString *CellIdentifier = @"Cell";
     
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier];
@@ -127,6 +149,37 @@
     
     
     return cell;
+    */
+    
+    NSUInteger section = [indexPath section];
+    NSUInteger row = [indexPath row];
+    
+    NSString *key = [keys objectAtIndex:section];
+    NSArray *nameSection = [names objectForKey:key];
+    
+    static NSString *SectionsTableIdentifier = @"SectionsTableIdentifier";
+    
+    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:
+                             SectionsTableIdentifier];
+    if (cell == nil) {
+        cell = [[[UITableViewCell alloc]
+                 initWithStyle:UITableViewCellStyleSubtitle
+                 reuseIdentifier:SectionsTableIdentifier] autorelease];
+    }
+    
+    //cell.textLabel.text = [nameSection objectAtIndex:row];
+    cell.textLabel.text = [[nameSection objectAtIndex:row] objectForKey:@"name"];
+    UIImage *avator = [UIImage imageNamed:[[nameSection objectAtIndex:row] objectForKey:@"avator"]];
+    cell.imageView.image = avator;
+    cell.detailTextLabel.text = [[nameSection objectAtIndex:row] objectForKey:@"time"];
+    
+    //[[self.coloursArray objectAtIndex:indexPath.row] valueForKey:@"Colour"];
+    //  cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
+    
+    return cell;
+
+    
+    
 }
 
 /*
@@ -194,6 +247,34 @@
     
     StrawberryChangAppDelegate *delegate =[[UIApplication sharedApplication] delegate];
     [delegate.lineupsNavViewController pushViewController:lineupDetailViewController animated:YES];
+    
+}
+
+/*
+- (NSArray *)sectionIndexTitlesForTableView:(UITableView *)tableView
+{
+    return keys;
+}
+ */
+
+
+- (NSString *) tableView:(UITableView *)tableView titleForHeaderInSection:(NSInteger)section
+{
+    NSString *key = [keys objectAtIndex:section];
+    return key;
+}
+
+//set cell height
+
+- (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath{
+    
+    //view size
+    
+    CGRect mframe = self.view.frame;
+    
+    return mframe.size.height / 7 ;
+    
+    //return 62.0;
     
 }
 

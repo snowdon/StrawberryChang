@@ -16,7 +16,7 @@
 
     ArtistDetailViewController *artistDetailViewController;
 
-    NSDictionary *name;
+    NSDictionary *names;
     NSArray *keys;
     
 }
