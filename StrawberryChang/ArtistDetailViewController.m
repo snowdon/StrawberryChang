@@ -15,6 +15,11 @@
 //@synthesize artistBio;
 @synthesize artistDict;
 @synthesize bio;
+@synthesize dateLabel;
+@synthesize timeLabel;
+@synthesize locationLabel;
+@synthesize nameLabel;
+
 
 /*
 - (void)setIndexForArtistBio:(int)index
@@ -26,6 +31,12 @@
 - (void)viewWillAppear:(BOOL)animated
 {
     bio.text = [artistDict objectForKey:@"bio"];
+    dateLabel.text = [artistDict objectForKey:@"date"];
+    timeLabel.text = [artistDict objectForKey:@"time"];
+    locationLabel.text = [artistDict objectForKey:@"location"];
+    nameLabel.text = [artistDict objectForKey:@"name"];
+                      
+    
     
     artistPhoto.image = [UIImage imageNamed:[artistDict objectForKey:@"photo"]];
  //   artistBio.text = [artistsModel getArtistBioAtIndex:artistIndex];

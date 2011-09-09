@@ -163,7 +163,7 @@
                              SectionsTableIdentifier];
     if (cell == nil) {
         cell = [[[UITableViewCell alloc]
-                 initWithStyle:UITableViewCellStyleSubtitle
+                 initWithStyle:UITableViewCellStyleDefault
                  reuseIdentifier:SectionsTableIdentifier] autorelease];
         
     }
@@ -171,9 +171,10 @@
     
     //cell.textLabel.text = [nameSection objectAtIndex:row];
     cell.textLabel.text = [[nameSection objectAtIndex:row] objectForKey:@"name"];
-    cell.detailTextLabel.text = [[nameSection objectAtIndex:row] objectForKey:@"bio"];
+  //  cell.detailTextLabel.text = [[nameSection objectAtIndex:row] objectForKey:@"bio"];
 
     //[[self.coloursArray objectAtIndex:indexPath.row] valueForKey:@"Colour"];
+    cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
     
     return cell;
     
@@ -272,8 +273,7 @@
         ArtistDetailViewController *aArtistDetail = [[ArtistDetailViewController alloc] initWithNibName:@"ArtistDetailViewController" bundle:nil];
         
         self.artistDetailViewController = aArtistDetail;
-             artistDetailViewController.artistsModel = self.artistsModel;
- 
+      
         [aArtistDetail release];
         
     }
@@ -284,6 +284,9 @@
    // artistDetailViewController.title = [NSString stringWithFormat:@"%@",[artistsArray objectAtIndex:row]];
  //   artistDetailViewController.title = [NSString stringWithFormat:@"%@", [self.artistsModel getArtistNameAtIndex:row ]];
   //  [artistDetailViewController setIndexForArtistBio:row];
+    
+    artistDetailViewController.title = [NSString stringWithFormat:@"%@",[[nameSection objectAtIndex:row] objectForKey:@"name"]];
+    
     artistDetailViewController.artistDict = [nameSection objectAtIndex:row];
     
     StrawberryChangAppDelegate *delegate =[[UIApplication sharedApplication] delegate];
@@ -291,10 +294,17 @@
     
 }
 
-/*
+- (NSString *) tableView:(UITableView *)tableView titleForHeaderInSection:(NSInteger)section
+{
+    NSString *key = [keys objectAtIndex:section];
+    return key;
+}
+
+
+
 - (NSArray *)sectionIndexTitlesForTableView:(UITableView *)tableView
 {
     return keys;
 }
-*/
+
 @end
