@@ -45,7 +45,7 @@
 {
     [super viewDidLoad];
     
-    self.title = NSLocalizedString(@"Line Up", @"Line up Info");
+    self.title = NSLocalizedString(@"日程", @"Line up Info");
     
     NSMutableArray *array = [[NSArray alloc] initWithObjects:@"Chuns", @"Xia", @"Qiu", nil];
     

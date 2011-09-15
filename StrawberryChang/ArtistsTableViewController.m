@@ -46,7 +46,7 @@
 {
     [super viewDidLoad];
     
-    self.title = NSLocalizedString(@"Artists", @"Artists Info");
+    self.title = NSLocalizedString(@"艺人", @"Artists Info");
     
     
     NSString *path = [[NSBundle mainBundle]pathForResource:@"artistlist"
