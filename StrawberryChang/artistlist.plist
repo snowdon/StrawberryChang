@@ -6,58 +6,26 @@
 	<array>
 		<dict>
 			<key>avator</key>
-			<string>avator10.png</string>
+			<string>a001.jpg</string>
 			<key>bio</key>
-			<string>super stat a1</string>
+			<string>06年组于武汉。AV大久保乐队的武汉B级摇滚让我们体验到更多的是幼年时弥散在周围却或许并不明白的娱乐气氛。这种娱乐不像当年迪斯科舞厅和小剧场里的单纯聒噪，它被时代所连带出客观的视角和嘲弄的口吻。AV大久保在全民娱乐时代横贯出世。它既不同于一针见血的朋克批判，也不等于对时事世事的全盘否定——它会质疑和锐化其中的漏洞，然后用实力说话，以求改变它。2008年10月，乐队与金牌制作人Martin Atkins在亚洲最大的录音棚A-String录制了他们的首张专辑《大时代》。</string>
 			<key>date</key>
-			<string>10.2</string>
+			<string>10月6</string>
 			<key>location</key>
-			<string>school</string>
+			<string>爱舞台</string>
 			<key>name</key>
-			<string>a1</string>
+			<string>AV大久保 </string>
 			<key>photo</key>
-			<string>photo10.png</string>
+			<string>059.jpg</string>
 			<key>time</key>
-			<string>16:00</string>
-		</dict>
-		<dict>
-			<key>avator</key>
-			<string>avator2.png</string>
-			<key>bio</key>
-			<string>super stat a2 1</string>
-			<key>date</key>
-			<string>10.2</string>
-			<key>location</key>
-			<string>elec</string>
-			<key>name</key>
-			<string>a2</string>
-			<key>photo</key>
-			<string>avator2.png</string>
-			<key>time</key>
-			<string>16:00</string>
-		</dict>
-		<dict>
-			<key>avator</key>
-			<string>avator4.png</string>
-			<key>bio</key>
-			<string>super stat a31</string>
-			<key>date</key>
-			<string>10.2</string>
-			<key>location</key>
-			<string>i</string>
-			<key>name</key>
-			<string>a3</string>
-			<key>photo</key>
-			<string>avator3.png</string>
-			<key>time</key>
-			<string>16:00</string>
+			<string>19:00-20:00</string>
 		</dict>
 	</array>
 	<key>B</key>
 	<array>
 		<dict>
 			<key>avator</key>
-			<string>avator1.png</string>
+			<string>a005.jpg</string>
 			<key>bio</key>
 			<string>super stat 1</string>
 			<key>date</key>
@@ -65,48 +33,15 @@
 			<key>location</key>
 			<string>school</string>
 			<key>name</key>
-			<string>b1</string>
+			<string>白目</string>
 			<key>photo</key>
-			<string>avator1.png</string>
+			<string>005.jpg</string>
 			<key>time</key>
 			<string>16:00</string>
 		</dict>
 		<dict>
 			<key>avator</key>
-			<string>avator6.png</string>
-			<key>bio</key>
-			<string>super stat 1</string>
-			<key>date</key>
-			<string>10.2</string>
-			<key>location</key>
-			<string>school</string>
-			<key>name</key>
-			<string>b2</string>
-			<key>photo</key>
-			<string>avator5.png</string>
-			<key>time</key>
-			<string>16:00</string>
-		</dict>
-		<dict>
-			<key>avator</key>
-			<string>avator7.png</string>
-			<key>bio</key>
-			<string>super stat 1</string>
-			<key>date</key>
-			<string>10.2</string>
-			<key>location</key>
-			<string>school</string>
-			<key>name</key>
-			<string>b3</string>
-			<key>photo</key>
-			<string>avator3.png</string>
-		</dict>
-	</array>
-	<key>C</key>
-	<array>
-		<dict>
-			<key>avator</key>
-			<string>avator8.png</string>
+			<string>a019.jpg</string>
 			<key>bio</key>
 			<string>super stat a1</string>
 			<key>date</key>
@@ -114,12 +49,15 @@
 			<key>location</key>
 			<string>school</string>
 			<key>name</key>
-			<string>a1</string>
+			<string>Blood Group</string>
 			<key>photo</key>
-			<string>avator1.png</string>
+			<string>019.jpg</string>
 			<key>time</key>
 			<string>16:00</string>
 		</dict>
+	</array>
+	<key>C</key>
+	<array>
 		<dict>
 			<key>avator</key>
 			<string>avator1.png</string>

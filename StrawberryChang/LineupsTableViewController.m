@@ -47,21 +47,27 @@
     
     self.title = NSLocalizedString(@"日程", @"Line up Info");
     
-    NSMutableArray *array = [[NSArray alloc] initWithObjects:@"Chuns", @"Xia", @"Qiu", nil];
+    //NSMutableArray *array = [[NSArray alloc] initWithObjects:@"Chuns", @"Xia", @"Qiu", nil];
     
-    self.lineupsArray = array;
-    [array release];
+  //  self.lineupsArray = array;
+ //   [array release];
     
  
     
     NSString *path = [[NSBundle mainBundle]pathForResource:@"lineuplist"
                                                     ofType:@"plist"];
-    NSDictionary *dict = [[NSDictionary alloc] initWithContentsOfFile:path];
-    self.names = dict;
-    [dict release];
+   // NSMutableArray * array = [[NSMutableArray alloc] initWithContentsOfFile:path];
     
-    NSArray *array2 = [[names allKeys] sortedArrayUsingSelector:@selector(compare:)];
-   // NSArray *array2 = [names allKeys];
+  //  self.lineupsArray = array;
+  //  [array release];
+    
+    NSDictionary *dict = [[NSDictionary alloc] initWithContentsOfFile:path];
+
+    self.names = dict;
+   [dict release];
+    
+   // NSArray *array2 = [[names allKeys] sortedArrayUsingSelector:@selector(compare:)];
+    NSArray *array2 = [names allKeys];
     
     self.keys = array2;
     

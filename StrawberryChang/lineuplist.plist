@@ -2,7 +2,7 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>a          10.2  草莓舞台</key>
+	<key>a 10.2  草莓舞台</key>
 	<array>
 		<dict>
 			<key>avator</key>
@@ -103,7 +103,7 @@
 			<string>16:00</string>
 		</dict>
 	</array>
-	<key>b             10.2 电子</key>
+	<key>b 10.2 电子</key>
 	<array>
 		<dict>
 			<key>avator</key>
@@ -206,6 +206,107 @@
 			<string>b3</string>
 			<key>photo</key>
 			<string>avator3.png</string>
+		</dict>
+	</array>
+	<key>m 10.5 i - 2</key>
+	<array>
+		<dict>
+			<key>avator</key>
+			<string>avator10.png</string>
+			<key>date</key>
+			<string>10.2</string>
+			<key>location</key>
+			<string>school</string>
+			<key>name</key>
+			<string>a1</string>
+			<key>photo</key>
+			<string>photo10.png</string>
+			<key>time</key>
+			<string>16:00</string>
+		</dict>
+		<dict>
+			<key>avator</key>
+			<string>avator2.png</string>
+			<key>date</key>
+			<string>10.2</string>
+			<key>location</key>
+			<string>elec</string>
+			<key>name</key>
+			<string>a2</string>
+			<key>photo</key>
+			<string>avator2.png</string>
+			<key>time</key>
+			<string>16:00</string>
+		</dict>
+		<dict>
+			<key>avator</key>
+			<string>avator4.png</string>
+			<key>date</key>
+			<string>10.2</string>
+			<key>location</key>
+			<string>i</string>
+			<key>name</key>
+			<string>a3</string>
+			<key>photo</key>
+			<string>avator3.png</string>
+			<key>time</key>
+			<string>16:00</string>
+		</dict>
+		<dict>
+			<key>avator</key>
+			<string>avator4.png</string>
+			<key>date</key>
+			<string>10.2</string>
+			<key>location</key>
+			<string>i</string>
+			<key>name</key>
+			<string>a3</string>
+			<key>photo</key>
+			<string>avator3.png</string>
+			<key>time</key>
+			<string>16:00</string>
+		</dict>
+		<dict>
+			<key>avator</key>
+			<string>avator4.png</string>
+			<key>date</key>
+			<string>10.2</string>
+			<key>location</key>
+			<string>i</string>
+			<key>name</key>
+			<string>a3</string>
+			<key>photo</key>
+			<string>avator3.png</string>
+			<key>time</key>
+			<string>16:00</string>
+		</dict>
+		<dict>
+			<key>avator</key>
+			<string>avator4.png</string>
+			<key>date</key>
+			<string>10.2</string>
+			<key>location</key>
+			<string>i</string>
+			<key>name</key>
+			<string>a3</string>
+			<key>photo</key>
+			<string>avator3.png</string>
+			<key>time</key>
+			<string>16:00</string>
+		</dict>
+		<dict>
+			<key>avator</key>
+			<string>avator4.png</string>
+			<key>date</key>
+			<string>10.2</string>
+			<key>location</key>
+			<string>i</string>
+			<key>name</key>
+			<string>a3</string>
+			<key>photo</key>
+			<string>avator3.png</string>
+			<key>time</key>
+			<string>16:00</string>
 		</dict>
 	</array>
 	<key>c.10.2 e</key>
@@ -658,107 +759,6 @@
 			<string>a3</string>
 			<key>photo</key>
 			<string>avator3.png</string>
-		</dict>
-	</array>
-	<key>m.10.5 i - 2</key>
-	<array>
-		<dict>
-			<key>avator</key>
-			<string>avator10.png</string>
-			<key>date</key>
-			<string>10.2</string>
-			<key>location</key>
-			<string>school</string>
-			<key>name</key>
-			<string>a1</string>
-			<key>photo</key>
-			<string>photo10.png</string>
-			<key>time</key>
-			<string>16:00</string>
-		</dict>
-		<dict>
-			<key>avator</key>
-			<string>avator2.png</string>
-			<key>date</key>
-			<string>10.2</string>
-			<key>location</key>
-			<string>elec</string>
-			<key>name</key>
-			<string>a2</string>
-			<key>photo</key>
-			<string>avator2.png</string>
-			<key>time</key>
-			<string>16:00</string>
-		</dict>
-		<dict>
-			<key>avator</key>
-			<string>avator4.png</string>
-			<key>date</key>
-			<string>10.2</string>
-			<key>location</key>
-			<string>i</string>
-			<key>name</key>
-			<string>a3</string>
-			<key>photo</key>
-			<string>avator3.png</string>
-			<key>time</key>
-			<string>16:00</string>
-		</dict>
-		<dict>
-			<key>avator</key>
-			<string>avator4.png</string>
-			<key>date</key>
-			<string>10.2</string>
-			<key>location</key>
-			<string>i</string>
-			<key>name</key>
-			<string>a3</string>
-			<key>photo</key>
-			<string>avator3.png</string>
-			<key>time</key>
-			<string>16:00</string>
-		</dict>
-		<dict>
-			<key>avator</key>
-			<string>avator4.png</string>
-			<key>date</key>
-			<string>10.2</string>
-			<key>location</key>
-			<string>i</string>
-			<key>name</key>
-			<string>a3</string>
-			<key>photo</key>
-			<string>avator3.png</string>
-			<key>time</key>
-			<string>16:00</string>
-		</dict>
-		<dict>
-			<key>avator</key>
-			<string>avator4.png</string>
-			<key>date</key>
-			<string>10.2</string>
-			<key>location</key>
-			<string>i</string>
-			<key>name</key>
-			<string>a3</string>
-			<key>photo</key>
-			<string>avator3.png</string>
-			<key>time</key>
-			<string>16:00</string>
-		</dict>
-		<dict>
-			<key>avator</key>
-			<string>avator4.png</string>
-			<key>date</key>
-			<string>10.2</string>
-			<key>location</key>
-			<string>i</string>
-			<key>name</key>
-			<string>a3</string>
-			<key>photo</key>
-			<string>avator3.png</string>
-			<key>time</key>
-			<string>16:00</string>
 		</dict>
 	</array>
 	<key>n.10.5 i - 3</key>
