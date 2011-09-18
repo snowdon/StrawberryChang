@@ -25,14 +25,12 @@
     
     
 }
-@property (nonatomic, retain) IBOutlet UITextView *artistBio;
+
 @property (nonatomic, retain) IBOutlet UITextView *bio;
-@property (nonatomic, retain) IBOutlet UIImageView *artistPhoto;
 @property (nonatomic, retain) NSDictionary *artistDict;
 @property (nonatomic, retain) IBOutlet UILabel *dateLabel;
 @property (nonatomic, retain) IBOutlet UILabel *timeLabel;
 @property (nonatomic, retain) IBOutlet UILabel *locationLabel;
 @property (nonatomic, retain) IBOutlet UILabel *nameLabel;
 
-- (void)setIndexForArtistBio:(int)index;
 @end

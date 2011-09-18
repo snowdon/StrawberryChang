@@ -7,7 +7,6 @@
 //
 
 #import "ArtistDetailViewController.h"
-//#import "ArtistsModel.h"
 
 @implementation ArtistDetailViewController
 

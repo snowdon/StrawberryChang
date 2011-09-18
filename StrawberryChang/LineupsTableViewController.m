@@ -66,8 +66,8 @@
     self.names = dict;
    [dict release];
     
-   // NSArray *array2 = [[names allKeys] sortedArrayUsingSelector:@selector(compare:)];
-    NSArray *array2 = [names allKeys];
+    NSArray *array2 = [[names allKeys] sortedArrayUsingSelector:@selector(compare:)];
+   // NSArray *array2 = [names allKeys];
     
     self.keys = array2;
     

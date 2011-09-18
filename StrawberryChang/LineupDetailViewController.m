@@ -13,16 +13,25 @@
 
 @synthesize nameLabel;
 @synthesize lineupDict;
+@synthesize bio;
+@synthesize dateLabel;
+@synthesize timeLabel;
+@synthesize locationLabel;
+@synthesize artistPhoto;
+
 
 
 - (void)viewWillAppear:(BOOL)animated
 {
     nameLabel.text = [lineupDict objectForKey:@"name"];
     
-    
-    
- //   artistPhoto.image = [UIImage imageNamed:[artistDict objectForKey:@"photo"]];
-    
+    bio.text = [lineupDict  objectForKey:@"bio"];
+    dateLabel.text = [lineupDict  objectForKey:@"date"];
+    timeLabel.text = [lineupDict  objectForKey:@"time"];
+    locationLabel.text = [lineupDict  objectForKey:@"location"];
+ 
+    artistPhoto.image = [UIImage imageNamed:[lineupDict objectForKey:@"photo"]];
+   
     [super viewWillAppear:animated];
     
 }

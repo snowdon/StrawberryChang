@@ -2,108 +2,142 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>a 10.2  草莓舞台</key>
+	<key>10.2  草莓舞台</key>
 	<array>
 		<dict>
 			<key>avator</key>
-			<string>avator10.png</string>
+			<string>a001.jpg</string>
 			<key>date</key>
 			<string>10.2</string>
 			<key>location</key>
-			<string>school</string>
+			<string>草莓舞台</string>
 			<key>name</key>
-			<string>阿信</string>
+			<string>苏打绿</string>
 			<key>photo</key>
-			<string>photo10.png</string>
+			<string>001.jpg</string>
 			<key>time</key>
-			<string>16:00</string>
+			<string>13:10-14:10</string>
+			<key>bio</key>
+			<string>苏打绿（Sodagreen）是一个台湾的乐团，于2001年由国立政治大学的学生组成，2003年时确立了了现在的六人阵容：主唱吴青峰（青峰）、贝斯手谢馨仪（馨仪）、鼓手史俊威（小威）、电吉他手刘家凯（家凯）、木吉他手何景扬（阿福），以及键盘与中提琴手龚钰祺（阿龚），其中除了阿龚为台北艺术大学音乐研究所的学生外，其余五名成员都曾就读政治大学。主要以摇滚乐为主，自出道开始，苏打绿所有发表歌曲皆为团员所创作。</string>
 		</dict>
 		<dict>
 			<key>avator</key>
-			<string>avator2.png</string>
+			<string>a002.jpg</string>
 			<key>date</key>
 			<string>10.2</string>
 			<key>location</key>
-			<string>elec</string>
+			<string>草莓舞台</string>
 			<key>name</key>
-			<string>a2</string>
+			<string>GLGB</string>
 			<key>photo</key>
-			<string>avator2.png</string>
+			<string>002.jpg</string>
 			<key>time</key>
-			<string>16:00</string>
+			<string>14:30-15:10</string>
+			<key>bio</key>
+			<string>GLGB乐队2008年成立，其间经历多次人员变动，但这对乐队的创作和成长没有太大影响，因为他们只是在做自己喜欢做的事情，音乐是爱好，创作是乐趣，表达是自然流露，无需拘泥形式，这也是为何乐队没有限制任何音乐风格，只需用心，音乐便可成为显化思想的工具，除了表达自我，他们也希望能感染到听众，在这个娱乐至上形式至上的时代产生一些积极的影响。</string>
 		</dict>
 		<dict>
 			<key>avator</key>
-			<string>avator4.png</string>
+			<string>a003.jpg</string>
 			<key>date</key>
 			<string>10.2</string>
 			<key>location</key>
-			<string>i</string>
+			<string>草莓舞台</string>
 			<key>name</key>
-			<string>a3</string>
+			<string>Ghost Spardac</string>
 			<key>photo</key>
-			<string>avator3.png</string>
+			<string>003.jpg</string>
 			<key>time</key>
-			<string>16:00</string>
+			<string>15:30-16:10</string>
+			<key>bio</key>
+			<string>The Ghost Spardac是在中国北京创建的一支摇滚乐队。 
+       成员分别是有着优美嗓音的中美混血主唱Boxy、富有技巧的吉他手Chuck、激情与柔情并存的鼓手Fever。浑厚又激情的声音绝对让你想不到这是三个人所能演奏出来的。 
+       原BEAT CRUSADER的TORU HIDAKA也称赞「这简直就是音乐版的三国志」。作为HIPHOP创始者之一的Afrika Bambaataa也赞誉他们为亚洲的摇滚之星。今年3月9日发行了作为Tower record限定版的迷你专辑『TGS ep』，正式踏出了进军日本乐坛的第一步。 
+       他们也与很多其他艺人合作演出过。在北京曾与北京MONGOL800和GOOD 4 NOTHING合作。之前首次登陆日本在日本著名的livehouse LIQUIDROOM与FACT、Crossfaith、calx同台献艺。并且在今年5月举行的MIDI ROCK FESTIVAL和摩登天空音乐节上也在主舞台上进行了演出。 
+不拘泥于已有风格的他们所发出的声音定能对还不发达的中国摇滚乐带来惊人的变化。</string>
 		</dict>
 		<dict>
 			<key>avator</key>
-			<string>avator4.png</string>
+			<string>a004.jpg</string>
 			<key>date</key>
 			<string>10.2</string>
 			<key>location</key>
-			<string>i</string>
+			<string>草莓舞台</string>
 			<key>name</key>
-			<string>a3</string>
+			<string>梁晓雪</string>
 			<key>photo</key>
-			<string>avator3.png</string>
+			<string>004.jpg</string>
 			<key>time</key>
-			<string>16:00</string>
+			<string>16:30-17:10</string>
+			<key>bio</key>
+			<string>梁晓雪，唱作歌手，音乐制作人。曾游学加拿大，就读于Pacific audio visual institute录音学院，后于2003年开始自己的音乐创作。出道前，梁晓雪曾数次担任多位国内知名歌手的幕后制作工作。2008年，梁晓雪陆续公布自己的原创音乐作品，他凭借其独特的嗓音与优质的音乐创作，得到了听众的一致认同和推荐，并引发网络听众热烈讨论。每次现场演出，梁晓雪都会在编排上下足功夫，为听众带来不一样的音乐聆听感受。他精彩的演出效果获得歌迷的一致认可，演出场场爆满，并接连刷新自己最好的票房成绩。2010年8月8日，梁晓雪首张个人创作专辑《Floral Times/花样年华》正式发表，被媒体称为“中国最好的新民谣”，并获得光线传媒新人盛典最佳唱作人提名 。2011年梁晓雪第二张全创作个人专辑正式发行，饱受好评。</string>
 		</dict>
 		<dict>
 			<key>avator</key>
-			<string>avator4.png</string>
+			<string>a005.jpg</string>
 			<key>date</key>
 			<string>10.2</string>
 			<key>location</key>
-			<string>i</string>
+			<string>草莓舞台</string>
 			<key>name</key>
-			<string>a3</string>
+			<string>白目</string>
 			<key>photo</key>
-			<string>avator3.png</string>
+			<string>005.jpg</string>
 			<key>time</key>
-			<string>16:00</string>
+			<string>17:30-18:30</string>
+			<key>bio</key>
+			<string>白目乐队来自台北，复古声线与特色明晰的女声唱腔使白目在台湾乐团中独树一格。女主唱高小糕的舞台魅力与收放自如的嗓音变化，更让她们被视为下一代独立女声领袖接班人。这个大大小小音乐节的常客在横扫各大音乐比赛奖项后，2008年推出众所期盼的首张EP《Get My Body If You Want It》，穿透人心的呢喃字句不容错过！</string>
 		</dict>
 		<dict>
 			<key>avator</key>
-			<string>avator4.png</string>
+			<string>a006.jpg</string>
 			<key>date</key>
 			<string>10.2</string>
 			<key>location</key>
-			<string>i</string>
+			<string>草莓舞台</string>
 			<key>name</key>
-			<string>a3</string>
+			<string>重塑雕像的权利</string>
 			<key>photo</key>
-			<string>avator3.png</string>
+			<string>006.jpg</string>
 			<key>time</key>
-			<string>16:00</string>
+			<string>18:50-19:50</string>
+			<key>bio</key>
+			<string>乐队成立于2003年3月，受70年代的后朋克乐队Bauhaus，Joy Division，Gang of Four等乐队影响。2005年签约摩登天空后，成为了现场演出中最为抢眼的一支中国摇滚新贵，乐队经典的后朋克曲风及冲击力极强的现场演出征服了大批的乐迷。2005年10月的首张EP唱片《CUT OFF！》更是得到了超级制作人Brian Eno的参与，音乐里透露的隶属于上个世纪七十年代末后朋克的艺术气息倍受乐迷的推崇。</string>
 		</dict>
 		<dict>
 			<key>avator</key>
-			<string>avator4.png</string>
+			<string>a007.jpg</string>
 			<key>date</key>
 			<string>10.2</string>
 			<key>location</key>
-			<string>i</string>
+			<string>草莓舞台</string>
 			<key>name</key>
-			<string>a3</string>
+			<string>The Go!Team</string>
 			<key>photo</key>
-			<string>avator3.png</string>
+			<string>007.jpg</string>
 			<key>time</key>
-			<string>16:00</string>
+			<string>18:50-19:50</string>
+			<key>bio</key>
+			<string>他们是中国重金属摇滚乐的开创者,是中国最具影响力、最具传奇色彩的乐队。他们是中国坚持最长久，阵容最强大的乐队。丰富的故事和人生经历也让他们被冠以“中国最具传奇色彩的乐队”。在这支乐队里有中国摇滚乐手的先锋顶级碰撞，完美结合。他们的曲风多样，西为中用，古为今用。他们的歌曲已超越普通意义的摇滚乐，追求更大气的民族精神及诗化意境，他们力求把具有中国特色的艺术摇滚做到极致。主唱：丁武 吉他；陈磊 贝斯：顾忠 鼓手：赵年</string>
+		</dict>
+		<dict>
+			<key>avator</key>
+			<string>a008.jpg</string>
+			<key>date</key>
+			<string>10.2</string>
+			<key>location</key>
+			<string>草莓舞台</string>
+			<key>name</key>
+			<string>唐朝</string>
+			<key>photo</key>
+			<string>008.jpg</string>
+			<key>time</key>
+			<string>21:50-22:50</string>
+			<key>bio</key>
+			<string>乐队成立于2003年3月，受70年代的后朋克乐队Bauhaus，Joy Division，Gang of Four等乐队影响。2005年签约摩登天空后，成为了现场演出中最为抢眼的一支中国摇滚新贵，乐队经典的后朋克曲风及冲击力极强的现场演出征服了大批的乐迷。2005年10月的首张EP唱片《CUT OFF！》更是得到了超级制作人Brian Eno的参与，音乐里透露的隶属于上个世纪七十年代末后朋克的艺术气息倍受乐迷的推崇。</string>
 		</dict>
 	</array>
-	<key>b 10.2 电子</key>
+	<key>10.2 电子</key>
 	<array>
 		<dict>
 			<key>avator</key>
@@ -208,108 +242,7 @@
 			<string>avator3.png</string>
 		</dict>
 	</array>
-	<key>m 10.5 i - 2</key>
-	<array>
-		<dict>
-			<key>avator</key>
-			<string>avator10.png</string>
-			<key>date</key>
-			<string>10.2</string>
-			<key>location</key>
-			<string>school</string>
-			<key>name</key>
-			<string>a1</string>
-			<key>photo</key>
-			<string>photo10.png</string>
-			<key>time</key>
-			<string>16:00</string>
-		</dict>
-		<dict>
-			<key>avator</key>
-			<string>avator2.png</string>
-			<key>date</key>
-			<string>10.2</string>
-			<key>location</key>
-			<string>elec</string>
-			<key>name</key>
-			<string>a2</string>
-			<key>photo</key>
-			<string>avator2.png</string>
-			<key>time</key>
-			<string>16:00</string>
-		</dict>
-		<dict>
-			<key>avator</key>
-			<string>avator4.png</string>
-			<key>date</key>
-			<string>10.2</string>
-			<key>location</key>
-			<string>i</string>
-			<key>name</key>
-			<string>a3</string>
-			<key>photo</key>
-			<string>avator3.png</string>
-			<key>time</key>
-			<string>16:00</string>
-		</dict>
-		<dict>
-			<key>avator</key>
-			<string>avator4.png</string>
-			<key>date</key>
-			<string>10.2</string>
-			<key>location</key>
-			<string>i</string>
-			<key>name</key>
-			<string>a3</string>
-			<key>photo</key>
-			<string>avator3.png</string>
-			<key>time</key>
-			<string>16:00</string>
-		</dict>
-		<dict>
-			<key>avator</key>
-			<string>avator4.png</string>
-			<key>date</key>
-			<string>10.2</string>
-			<key>location</key>
-			<string>i</string>
-			<key>name</key>
-			<string>a3</string>
-			<key>photo</key>
-			<string>avator3.png</string>
-			<key>time</key>
-			<string>16:00</string>
-		</dict>
-		<dict>
-			<key>avator</key>
-			<string>avator4.png</string>
-			<key>date</key>
-			<string>10.2</string>
-			<key>location</key>
-			<string>i</string>
-			<key>name</key>
-			<string>a3</string>
-			<key>photo</key>
-			<string>avator3.png</string>
-			<key>time</key>
-			<string>16:00</string>
-		</dict>
-		<dict>
-			<key>avator</key>
-			<string>avator4.png</string>
-			<key>date</key>
-			<string>10.2</string>
-			<key>location</key>
-			<string>i</string>
-			<key>name</key>
-			<string>a3</string>
-			<key>photo</key>
-			<string>avator3.png</string>
-			<key>time</key>
-			<string>16:00</string>
-		</dict>
-	</array>
-	<key>c.10.2 e</key>
+	<key>10.2 e</key>
 	<array>
 		<dict>
 			<key>avator</key>
@@ -356,7 +289,7 @@
 			<string>avator3.png</string>
 		</dict>
 	</array>
-	<key>d.10.2 school</key>
+	<key>10.2 school</key>
 	<array>
 		<dict>
 			<key>avator</key>
@@ -401,7 +334,7 @@
 			<string>avator3.png</string>
 		</dict>
 	</array>
-	<key>e.10.3 caomei</key>
+	<key>10.3 caomei</key>
 	<array>
 		<dict>
 			<key>avator</key>
@@ -446,7 +379,7 @@
 			<string>avator3.png</string>
 		</dict>
 	</array>
-	<key>f.10.3 i</key>
+	<key>10.3 i</key>
 	<array>
 		<dict>
 			<key>avator</key>
@@ -491,7 +424,7 @@
 			<string>avator3.png</string>
 		</dict>
 	</array>
-	<key>g.10.3 caomei2</key>
+	<key>10.3 caomei2</key>
 	<array>
 		<dict>
 			<key>avator</key>
@@ -536,7 +469,7 @@
 			<string>avator3.png</string>
 		</dict>
 	</array>
-	<key>h.10.3 think</key>
+	<key>10.3 think</key>
 	<array>
 		<dict>
 			<key>avator</key>
@@ -581,7 +514,7 @@
 			<string>avator3.png</string>
 		</dict>
 	</array>
-	<key>i.10.4 ele</key>
+	<key>10.4 ele</key>
 	<array>
 		<dict>
 			<key>avator</key>
@@ -626,7 +559,7 @@
 			<string>avator3.png</string>
 		</dict>
 	</array>
-	<key>j.10.4 school</key>
+	<key>10.4 school</key>
 	<array>
 		<dict>
 			<key>avator</key>
@@ -671,7 +604,7 @@
 			<string>avator3.png</string>
 		</dict>
 	</array>
-	<key>k.10.4</key>
+	<key>10.4</key>
 	<array>
 		<dict>
 			<key>avator</key>
@@ -716,7 +649,7 @@
 			<string>avator3.png</string>
 		</dict>
 	</array>
-	<key>l.10.4 dn</key>
+	<key>10.4 dn</key>
 	<array>
 		<dict>
 			<key>avator</key>
@@ -761,7 +694,7 @@
 			<string>avator3.png</string>
 		</dict>
 	</array>
-	<key>n.10.5 i - 3</key>
+	<key>10.5 i - 2</key>
 	<array>
 		<dict>
 			<key>avator</key>
@@ -862,7 +795,7 @@
 			<string>16:00</string>
 		</dict>
 	</array>
-	<key>o.10.5 6 i - 4</key>
+	<key>10.5 i - 3</key>
 	<array>
 		<dict>
 			<key>avator</key>
@@ -963,7 +896,108 @@
 			<string>16:00</string>
 		</dict>
 	</array>
-	<key>p.10.5 i - 4 - 2</key>
+	<key>10.5 6 i - 4</key>
+	<array>
+		<dict>
+			<key>avator</key>
+			<string>avator10.png</string>
+			<key>date</key>
+			<string>10.2</string>
+			<key>location</key>
+			<string>school</string>
+			<key>name</key>
+			<string>a1</string>
+			<key>photo</key>
+			<string>photo10.png</string>
+			<key>time</key>
+			<string>16:00</string>
+		</dict>
+		<dict>
+			<key>avator</key>
+			<string>avator2.png</string>
+			<key>date</key>
+			<string>10.2</string>
+			<key>location</key>
+			<string>elec</string>
+			<key>name</key>
+			<string>a2</string>
+			<key>photo</key>
+			<string>avator2.png</string>
+			<key>time</key>
+			<string>16:00</string>
+		</dict>
+		<dict>
+			<key>avator</key>
+			<string>avator4.png</string>
+			<key>date</key>
+			<string>10.2</string>
+			<key>location</key>
+			<string>i</string>
+			<key>name</key>
+			<string>a3</string>
+			<key>photo</key>
+			<string>avator3.png</string>
+			<key>time</key>
+			<string>16:00</string>
+		</dict>
+		<dict>
+			<key>avator</key>
+			<string>avator4.png</string>
+			<key>date</key>
+			<string>10.2</string>
+			<key>location</key>
+			<string>i</string>
+			<key>name</key>
+			<string>a3</string>
+			<key>photo</key>
+			<string>avator3.png</string>
+			<key>time</key>
+			<string>16:00</string>
+		</dict>
+		<dict>
+			<key>avator</key>
+			<string>avator4.png</string>
+			<key>date</key>
+			<string>10.2</string>
+			<key>location</key>
+			<string>i</string>
+			<key>name</key>
+			<string>a3</string>
+			<key>photo</key>
+			<string>avator3.png</string>
+			<key>time</key>
+			<string>16:00</string>
+		</dict>
+		<dict>
+			<key>avator</key>
+			<string>avator4.png</string>
+			<key>date</key>
+			<string>10.2</string>
+			<key>location</key>
+			<string>i</string>
+			<key>name</key>
+			<string>a3</string>
+			<key>photo</key>
+			<string>avator3.png</string>
+			<key>time</key>
+			<string>16:00</string>
+		</dict>
+		<dict>
+			<key>avator</key>
+			<string>avator4.png</string>
+			<key>date</key>
+			<string>10.2</string>
+			<key>location</key>
+			<string>i</string>
+			<key>name</key>
+			<string>a3</string>
+			<key>photo</key>
+			<string>avator3.png</string>
+			<key>time</key>
+			<string>16:00</string>
+		</dict>
+	</array>
+	<key>10.5 i - 4 - 2</key>
 	<array>
 		<dict>
 			<key>avator</key>
