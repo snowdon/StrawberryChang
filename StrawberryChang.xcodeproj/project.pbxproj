@@ -140,8 +140,6 @@
 		15A76F6A142634DC00B5B231 /* Hypno.png in Resources */ = {isa = PBXBuildFile; fileRef = 15A76F69142634DC00B5B231 /* Hypno.png */; };
 		15A76F6C1426351D00B5B231 /* Time.png in Resources */ = {isa = PBXBuildFile; fileRef = 15A76F6B1426351D00B5B231 /* Time.png */; };
 		15A76F6E1426381C00B5B231 /* pick.png in Resources */ = {isa = PBXBuildFile; fileRef = 15A76F6D1426381C00B5B231 /* pick.png */; };
-		15A76F7014263DA900B5B231 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 15A76F6F14263DA900B5B231 /* Icon.png */; };
-		15A76F7214263F6A00B5B231 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 15A76F7114263F6A00B5B231 /* Icon@2x.png */; };
 		15EF9DC91415A80E004410C1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15EF9DC81415A80E004410C1 /* UIKit.framework */; };
 		15EF9DCB1415A80E004410C1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15EF9DCA1415A80E004410C1 /* Foundation.framework */; };
 		15EF9DCD1415A80E004410C1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15EF9DCC1415A80E004410C1 /* CoreGraphics.framework */; };
@@ -157,6 +155,8 @@
 		15EF9DF11415AF12004410C1 /* ArtistsTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 15EF9DEF1415AF12004410C1 /* ArtistsTableViewController.xib */; };
 		15EF9E2E1415C22D004410C1 /* LineupDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 15EF9E2C1415C22D004410C1 /* LineupDetailViewController.m */; };
 		15EF9E2F1415C22D004410C1 /* LineupDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 15EF9E2D1415C22D004410C1 /* LineupDetailViewController.xib */; };
+		15FE87EB1426C96000CDE797 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 15FE87EA1426C96000CDE797 /* Icon.png */; };
+		15FE87ED1426C96500CDE797 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 15FE87EC1426C96500CDE797 /* Icon@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -295,8 +295,6 @@
 		15A76F69142634DC00B5B231 /* Hypno.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Hypno.png; sourceTree = "<group>"; };
 		15A76F6B1426351D00B5B231 /* Time.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Time.png; sourceTree = "<group>"; };
 		15A76F6D1426381C00B5B231 /* pick.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pick.png; sourceTree = "<group>"; };
-		15A76F6F14263DA900B5B231 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
-		15A76F7114263F6A00B5B231 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
 		15EF9DC41415A80E004410C1 /* StrawberryChang.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StrawberryChang.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		15EF9DC81415A80E004410C1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		15EF9DCA1415A80E004410C1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -321,6 +319,8 @@
 		15EF9E2B1415C22D004410C1 /* LineupDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LineupDetailViewController.h; sourceTree = "<group>"; };
 		15EF9E2C1415C22D004410C1 /* LineupDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LineupDetailViewController.m; sourceTree = "<group>"; };
 		15EF9E2D1415C22D004410C1 /* LineupDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LineupDetailViewController.xib; sourceTree = "<group>"; };
+		15FE87EA1426C96000CDE797 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		15FE87EC1426C96500CDE797 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -475,8 +475,8 @@
 		15EF9DB91415A80D004410C1 = {
 			isa = PBXGroup;
 			children = (
-				15A76F7114263F6A00B5B231 /* Icon@2x.png */,
-				15A76F6F14263DA900B5B231 /* Icon.png */,
+				15FE87EC1426C96500CDE797 /* Icon@2x.png */,
+				15FE87EA1426C96000CDE797 /* Icon.png */,
 				15A76F671426339A00B5B231 /* Default@2x.png */,
 				15A76F651426339300B5B231 /* Default.png */,
 				15EF9DCE1415A80E004410C1 /* StrawberryChang */,
@@ -738,8 +738,8 @@
 				15A76F6A142634DC00B5B231 /* Hypno.png in Resources */,
 				15A76F6C1426351D00B5B231 /* Time.png in Resources */,
 				15A76F6E1426381C00B5B231 /* pick.png in Resources */,
-				15A76F7014263DA900B5B231 /* Icon.png in Resources */,
-				15A76F7214263F6A00B5B231 /* Icon@2x.png in Resources */,
+				15FE87EB1426C96000CDE797 /* Icon.png in Resources */,
+				15FE87ED1426C96500CDE797 /* Icon@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
