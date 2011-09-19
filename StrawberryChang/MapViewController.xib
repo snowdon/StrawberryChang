@@ -48,13 +48,12 @@
 						<string key="NSFrameSize">{800, 585}</string>
 						<reference key="NSSuperview" ref="191373211"/>
 						<reference key="NSWindow"/>
-						<reference key="NSNextKeyView"/>
 						<int key="IBUIContentMode">4</int>
 						<bool key="IBUIUserInteractionEnabled">NO</bool>
 						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
 						<object class="NSCustomResource" key="IBUIImage">
 							<string key="NSClassName">NSImage</string>
-							<string key="NSResourceName">zhenjiang-map.png</string>
+							<string key="NSResourceName">map9.14.800.jpg</string>
 						</object>
 					</object>
 				</object>
@@ -180,8 +179,8 @@
 		<bool key="IBDocument.PluginDeclaredDependenciesTrackSystemTargetVersion">YES</bool>
 		<int key="IBDocument.defaultPropertyAccessControl">3</int>
 		<object class="NSMutableDictionary" key="IBDocument.LastKnownImageSizes">
-			<string key="NS.key.0">zhenjiang-map.png</string>
-			<string key="NS.object.0">{800, 585}</string>
+			<string key="NS.key.0">map9.14.800.jpg</string>
+			<string key="NS.object.0">{800, 580}</string>
 		</object>
 		<string key="IBCocoaTouchPluginVersion">301</string>
 	</data>
