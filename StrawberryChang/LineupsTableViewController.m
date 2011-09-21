@@ -180,7 +180,7 @@
     cell.detailTextLabel.text = [[nameSection objectAtIndex:row] objectForKey:@"time"];
     
     //[[self.coloursArray objectAtIndex:indexPath.row] valueForKey:@"Colour"];
-    //  cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
+    cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
     
     return cell;
 
