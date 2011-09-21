@@ -71,7 +71,6 @@
 		155C262B1419EFD6007FAC72 /* lineuplist.plist in Resources */ = {isa = PBXBuildFile; fileRef = 155C262A1419EFD6007FAC72 /* lineuplist.plist */; };
 		155C263F141A15A6007FAC72 /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 155C263D141A15A6007FAC72 /* MapViewController.m */; };
 		155C2640141A15A6007FAC72 /* MapViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 155C263E141A15A6007FAC72 /* MapViewController.xib */; };
-		155C2643141A1801007FAC72 /* zhenjiang-map.png in Resources */ = {isa = PBXBuildFile; fileRef = 155C2642141A1801007FAC72 /* zhenjiang-map.png */; };
 		158177531419B05D00FD2A5B /* artistlist.plist in Resources */ = {isa = PBXBuildFile; fileRef = 158177521419B05D00FD2A5B /* artistlist.plist */; };
 		15A24E88141712620085FDAA /* ArtistDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 15A24E86141712620085FDAA /* ArtistDetailViewController.m */; };
 		15A24E89141712620085FDAA /* ArtistDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 15A24E87141712620085FDAA /* ArtistDetailViewController.xib */; };
@@ -137,9 +136,6 @@
 		15A76F6414262E3400B5B231 /* a022.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 15A76F6314262E3400B5B231 /* a022.jpg */; };
 		15A76F661426339300B5B231 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 15A76F651426339300B5B231 /* Default.png */; };
 		15A76F681426339A00B5B231 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 15A76F671426339A00B5B231 /* Default@2x.png */; };
-		15A76F6A142634DC00B5B231 /* Hypno.png in Resources */ = {isa = PBXBuildFile; fileRef = 15A76F69142634DC00B5B231 /* Hypno.png */; };
-		15A76F6C1426351D00B5B231 /* Time.png in Resources */ = {isa = PBXBuildFile; fileRef = 15A76F6B1426351D00B5B231 /* Time.png */; };
-		15A76F6E1426381C00B5B231 /* pick.png in Resources */ = {isa = PBXBuildFile; fileRef = 15A76F6D1426381C00B5B231 /* pick.png */; };
 		15EF9DC91415A80E004410C1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15EF9DC81415A80E004410C1 /* UIKit.framework */; };
 		15EF9DCB1415A80E004410C1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15EF9DCA1415A80E004410C1 /* Foundation.framework */; };
 		15EF9DCD1415A80E004410C1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15EF9DCC1415A80E004410C1 /* CoreGraphics.framework */; };
@@ -160,6 +156,10 @@
 		15FE87F21426DB3000CDE797 /* AboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 15FE87F01426DB3000CDE797 /* AboutViewController.m */; };
 		15FE87F31426DB3000CDE797 /* AboutViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 15FE87F11426DB3000CDE797 /* AboutViewController.xib */; };
 		15FE87F51426E48700CDE797 /* map9.14.800.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 15FE87F41426E48700CDE797 /* map9.14.800.jpg */; };
+		15FE87F914271C9A00CDE797 /* button-07-map-marker.png in Resources */ = {isa = PBXBuildFile; fileRef = 15FE87F814271C9A00CDE797 /* button-07-map-marker.png */; };
+		15FE87FB14271CA600CDE797 /* button-153-guitar.png in Resources */ = {isa = PBXBuildFile; fileRef = 15FE87FA14271CA600CDE797 /* button-153-guitar.png */; };
+		15FE87FD14271CAE00CDE797 /* button-15-tags.png in Resources */ = {isa = PBXBuildFile; fileRef = 15FE87FC14271CAE00CDE797 /* button-15-tags.png */; };
+		15FE87FF1427251400CDE797 /* button-83-calendar.png in Resources */ = {isa = PBXBuildFile; fileRef = 15FE87FE1427251400CDE797 /* button-83-calendar.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -228,7 +228,6 @@
 		155C263C141A15A6007FAC72 /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
 		155C263D141A15A6007FAC72 /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
 		155C263E141A15A6007FAC72 /* MapViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MapViewController.xib; sourceTree = "<group>"; };
-		155C2642141A1801007FAC72 /* zhenjiang-map.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "zhenjiang-map.png"; sourceTree = "<group>"; };
 		158177521419B05D00FD2A5B /* artistlist.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = artistlist.plist; sourceTree = "<group>"; };
 		15A24E85141712610085FDAA /* ArtistDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArtistDetailViewController.h; sourceTree = "<group>"; };
 		15A24E86141712620085FDAA /* ArtistDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArtistDetailViewController.m; sourceTree = "<group>"; };
@@ -295,9 +294,6 @@
 		15A76F6314262E3400B5B231 /* a022.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = a022.jpg; sourceTree = "<group>"; };
 		15A76F651426339300B5B231 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = ../Default.png; sourceTree = "<group>"; };
 		15A76F671426339A00B5B231 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default@2x.png"; path = "../Default@2x.png"; sourceTree = "<group>"; };
-		15A76F69142634DC00B5B231 /* Hypno.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Hypno.png; sourceTree = "<group>"; };
-		15A76F6B1426351D00B5B231 /* Time.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Time.png; sourceTree = "<group>"; };
-		15A76F6D1426381C00B5B231 /* pick.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pick.png; sourceTree = "<group>"; };
 		15EF9DC41415A80E004410C1 /* StrawberryChang.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StrawberryChang.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		15EF9DC81415A80E004410C1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		15EF9DCA1415A80E004410C1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -328,6 +324,10 @@
 		15FE87F01426DB3000CDE797 /* AboutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AboutViewController.m; sourceTree = "<group>"; };
 		15FE87F11426DB3000CDE797 /* AboutViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AboutViewController.xib; sourceTree = "<group>"; };
 		15FE87F41426E48700CDE797 /* map9.14.800.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = map9.14.800.jpg; sourceTree = "<group>"; };
+		15FE87F814271C9A00CDE797 /* button-07-map-marker.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button-07-map-marker.png"; sourceTree = "<group>"; };
+		15FE87FA14271CA600CDE797 /* button-153-guitar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button-153-guitar.png"; sourceTree = "<group>"; };
+		15FE87FC14271CAE00CDE797 /* button-15-tags.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button-15-tags.png"; sourceTree = "<group>"; };
+		15FE87FE1427251400CDE797 /* button-83-calendar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button-83-calendar.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -543,10 +543,6 @@
 			isa = PBXGroup;
 			children = (
 				15FE87EE1426DAF200CDE797 /* image */,
-				15A76F6D1426381C00B5B231 /* pick.png */,
-				15A76F6B1426351D00B5B231 /* Time.png */,
-				15A76F69142634DC00B5B231 /* Hypno.png */,
-				155C2642141A1801007FAC72 /* zhenjiang-map.png */,
 				15A24EA3141746BB0085FDAA /* photo */,
 				158177651419DF2B00FD2A5B /* avator */,
 				158177521419B05D00FD2A5B /* artistlist.plist */,
@@ -562,6 +558,10 @@
 		15FE87EE1426DAF200CDE797 /* image */ = {
 			isa = PBXGroup;
 			children = (
+				15FE87FE1427251400CDE797 /* button-83-calendar.png */,
+				15FE87FC14271CAE00CDE797 /* button-15-tags.png */,
+				15FE87FA14271CA600CDE797 /* button-153-guitar.png */,
+				15FE87F814271C9A00CDE797 /* button-07-map-marker.png */,
 				15FE87F41426E48700CDE797 /* map9.14.800.jpg */,
 				15FE87EC1426C96500CDE797 /* Icon@2x.png */,
 				15FE87EA1426C96000CDE797 /* Icon.png */,
@@ -630,7 +630,6 @@
 				158177531419B05D00FD2A5B /* artistlist.plist in Resources */,
 				155C262B1419EFD6007FAC72 /* lineuplist.plist in Resources */,
 				155C2640141A15A6007FAC72 /* MapViewController.xib in Resources */,
-				155C2643141A1801007FAC72 /* zhenjiang-map.png in Resources */,
 				1526DDFE1424DD11009F5A7D /* 001.jpg in Resources */,
 				1526DDFF1424DD11009F5A7D /* 002.jpg in Resources */,
 				1526DE001424DD11009F5A7D /* 003.jpg in Resources */,
@@ -754,13 +753,14 @@
 				15A76F6414262E3400B5B231 /* a022.jpg in Resources */,
 				15A76F661426339300B5B231 /* Default.png in Resources */,
 				15A76F681426339A00B5B231 /* Default@2x.png in Resources */,
-				15A76F6A142634DC00B5B231 /* Hypno.png in Resources */,
-				15A76F6C1426351D00B5B231 /* Time.png in Resources */,
-				15A76F6E1426381C00B5B231 /* pick.png in Resources */,
 				15FE87EB1426C96000CDE797 /* Icon.png in Resources */,
 				15FE87ED1426C96500CDE797 /* Icon@2x.png in Resources */,
 				15FE87F31426DB3000CDE797 /* AboutViewController.xib in Resources */,
 				15FE87F51426E48700CDE797 /* map9.14.800.jpg in Resources */,
+				15FE87F914271C9A00CDE797 /* button-07-map-marker.png in Resources */,
+				15FE87FB14271CA600CDE797 /* button-153-guitar.png in Resources */,
+				15FE87FD14271CAE00CDE797 /* button-15-tags.png in Resources */,
+				15FE87FF1427251400CDE797 /* button-83-calendar.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
