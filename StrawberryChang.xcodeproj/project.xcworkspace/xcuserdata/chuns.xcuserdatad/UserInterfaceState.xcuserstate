@@ -6885,7 +6885,7 @@
 		<string>DVTIdentifier</string>
 		<string>DVTViewMagnitude</string>
 		<string></string>
-		<real>473</real>
+		<real>453</real>
 		<dict>
 			<key>$class</key>
 			<dict>
@@ -7023,7 +7023,7 @@
 		<string>IDESCMStatusFilteringEnabled</string>
 		<string>IDESelectedObjects</string>
 		<string>IDEExpandedItemsSet</string>
-		<string>{{0, 11}, {244, 653}}</string>
+		<string>{{0, 38}, {244, 633}}</string>
 		<dict>
 			<key>$class</key>
 			<dict>
@@ -7908,8 +7908,8 @@
     s = 0;
 }</string>
 		</dict>
-		<real>338280245.59622902</real>
-		<string>{3661, 1791}</string>
+		<real>338281600.905608</real>
+		<string>{0, 1114}</string>
 		<string>{5100, 0}</string>
 		<string>-tableView:cellForRowAtIndexPath:</string>
 		<string>Xcode.IDEKit.EditorDocument.SourceCode</string>
@@ -7945,7 +7945,7 @@
 				</dict>
 			</array>
 		</dict>
-		<string>{{0, 0}, {1180, 697}}</string>
+		<string>{{0, 0}, {1180, 677}}</string>
 		<dict>
 			<key>$class</key>
 			<dict>
@@ -8369,7 +8369,7 @@
 			<key>NS.objects</key>
 			<array/>
 		</dict>
-		<string>{{0, 83}, {1440, 795}}</string>
+		<string>{{0, 96}, {1440, 775}}</string>
 		<dict>
 			<key>$class</key>
 			<dict>
@@ -16006,8 +16006,8 @@
     s = 0;
 }</string>
 		</dict>
-		<real>338280245.595186</real>
-		<string>{3661, 1791}</string>
+		<real>338281600.89255202</real>
+		<string>{0, 1114}</string>
 		<string>{5100, 0}</string>
 		<dict>
 			<key>$class</key>
