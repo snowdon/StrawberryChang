@@ -159,6 +159,8 @@
 		155C2640141A15A6007FAC72 /* MapViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 155C263E141A15A6007FAC72 /* MapViewController.xib */; };
 		156DB346142C6F0600D405F2 /* map.png in Resources */ = {isa = PBXBuildFile; fileRef = 156DB345142C6F0600D405F2 /* map.png */; };
 		156DB351142C77B500D405F2 /* map2.png in Resources */ = {isa = PBXBuildFile; fileRef = 156DB350142C77B500D405F2 /* map2.png */; };
+		156DB353142C7A9400D405F2 /* map3.png in Resources */ = {isa = PBXBuildFile; fileRef = 156DB352142C7A9400D405F2 /* map3.png */; };
+		156DB355142C80AA00D405F2 /* map4.png in Resources */ = {isa = PBXBuildFile; fileRef = 156DB354142C80AA00D405F2 /* map4.png */; };
 		158177531419B05D00FD2A5B /* artistlist.plist in Resources */ = {isa = PBXBuildFile; fileRef = 158177521419B05D00FD2A5B /* artistlist.plist */; };
 		15A24E88141712620085FDAA /* ArtistDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 15A24E86141712620085FDAA /* ArtistDetailViewController.m */; };
 		15A24E89141712620085FDAA /* ArtistDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 15A24E87141712620085FDAA /* ArtistDetailViewController.xib */; };
@@ -410,6 +412,8 @@
 		155C263E141A15A6007FAC72 /* MapViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MapViewController.xib; sourceTree = "<group>"; };
 		156DB345142C6F0600D405F2 /* map.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = map.png; sourceTree = "<group>"; };
 		156DB350142C77B500D405F2 /* map2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = map2.png; sourceTree = "<group>"; };
+		156DB352142C7A9400D405F2 /* map3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = map3.png; sourceTree = "<group>"; };
+		156DB354142C80AA00D405F2 /* map4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = map4.png; sourceTree = "<group>"; };
 		158177521419B05D00FD2A5B /* artistlist.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = artistlist.plist; sourceTree = "<group>"; };
 		15A24E85141712610085FDAA /* ArtistDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArtistDetailViewController.h; sourceTree = "<group>"; };
 		15A24E86141712620085FDAA /* ArtistDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArtistDetailViewController.m; sourceTree = "<group>"; };
@@ -872,6 +876,8 @@
 			children = (
 				156DB345142C6F0600D405F2 /* map.png */,
 				156DB350142C77B500D405F2 /* map2.png */,
+				156DB352142C7A9400D405F2 /* map3.png */,
+				156DB354142C80AA00D405F2 /* map4.png */,
 				15A4A173142C62150087750A /* WeCanDoIt.png */,
 				15E12303142A0BC100411753 /* ModernSkyLogo.jpg */,
 				15E12301142A05DF00411753 /* Default@2x.png */,
@@ -1170,6 +1176,8 @@
 				15A4A17C142C662B0087750A /* Map2ViewController.xib in Resources */,
 				156DB346142C6F0600D405F2 /* map.png in Resources */,
 				156DB351142C77B500D405F2 /* map2.png in Resources */,
+				156DB353142C7A9400D405F2 /* map3.png in Resources */,
+				156DB355142C80AA00D405F2 /* map4.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
