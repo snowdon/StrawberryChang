@@ -160,7 +160,6 @@
 		158177531419B05D00FD2A5B /* artistlist.plist in Resources */ = {isa = PBXBuildFile; fileRef = 158177521419B05D00FD2A5B /* artistlist.plist */; };
 		15A24E88141712620085FDAA /* ArtistDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 15A24E86141712620085FDAA /* ArtistDetailViewController.m */; };
 		15A24E89141712620085FDAA /* ArtistDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 15A24E87141712620085FDAA /* ArtistDetailViewController.xib */; };
-		15A4A14A142C5B660087750A /* WeCanDoIt.png in Resources */ = {isa = PBXBuildFile; fileRef = 15A4A149142C5B660087750A /* WeCanDoIt.png */; };
 		15A76F2714262D7F00B5B231 /* a001.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 15A76EEB14262D7F00B5B231 /* a001.jpg */; };
 		15A76F2814262D7F00B5B231 /* a002.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 15A76EEC14262D7F00B5B231 /* a002.jpg */; };
 		15A76F2914262D7F00B5B231 /* a003.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 15A76EED14262D7F00B5B231 /* a003.jpg */; };
@@ -408,7 +407,6 @@
 		15A24E85141712610085FDAA /* ArtistDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArtistDetailViewController.h; sourceTree = "<group>"; };
 		15A24E86141712620085FDAA /* ArtistDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArtistDetailViewController.m; sourceTree = "<group>"; };
 		15A24E87141712620085FDAA /* ArtistDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ArtistDetailViewController.xib; sourceTree = "<group>"; };
-		15A4A149142C5B660087750A /* WeCanDoIt.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = WeCanDoIt.png; sourceTree = "<group>"; };
 		15A76EEB14262D7F00B5B231 /* a001.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = a001.jpg; sourceTree = "<group>"; };
 		15A76EEC14262D7F00B5B231 /* a002.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = a002.jpg; sourceTree = "<group>"; };
 		15A76EED14262D7F00B5B231 /* a003.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = a003.jpg; sourceTree = "<group>"; };
@@ -858,7 +856,6 @@
 		15FE87EE1426DAF200CDE797 /* image */ = {
 			isa = PBXGroup;
 			children = (
-				15A4A149142C5B660087750A /* WeCanDoIt.png */,
 				15E12303142A0BC100411753 /* ModernSkyLogo.jpg */,
 				15E12301142A05DF00411753 /* Default@2x.png */,
 				15E122FF142A05D800411753 /* Default.png */,
@@ -1152,7 +1149,6 @@
 				15E12304142A0BC100411753 /* ModernSkyLogo.jpg in Resources */,
 				15BF0201142A1EB700C95360 /* 319.jpg in Resources */,
 				15BF0203142A1F7100C95360 /* 320.jpg in Resources */,
-				15A4A14A142C5B660087750A /* WeCanDoIt.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1222,16 +1218,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
-				CODE_SIGN_IDENTITY = "iPhone Distribution: Xiaochun Shen";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Xiaochun Shen";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_VERSION = com.apple.compilers.llvmgcc42;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
-				PROVISIONING_PROFILE = "11076269-333D-40A7-B277-687EE01D6C4B";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "11076269-333D-40A7-B277-687EE01D6C4B";
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				SDKROOT = iphoneos;
 			};
 			name = Release;

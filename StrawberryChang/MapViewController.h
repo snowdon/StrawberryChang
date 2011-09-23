@@ -9,16 +9,8 @@
 #import <UIKit/UIKit.h>
 
 
-@interface MapViewController : UIViewController
-<UIScrollViewDelegate>
-{
-    UIScrollView *imageScrollView;
-    UIImageView *imageView;
+@interface MapViewController : UIViewController {
+    
 }
-
-@property (nonatomic, retain) IBOutlet UIScrollView *imageScrollView;
-@property (nonatomic, retain) IBOutlet UIImageView *imageView;
-
-
 
 @end
