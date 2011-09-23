@@ -38,11 +38,13 @@
 - (void)viewDidLoad
 {
     
-    UIScrollView *tempScrollView=(UIScrollView *)self.view;
-    tempScrollView.contentSize=CGSizeMake(800,585);
-    
+     
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
+}
+
+- (UIView *)viewForZoomingInScrollView:(UIScrollView *)scrollView {
+    return self.view;
 }
 
 - (void)viewDidUnload
